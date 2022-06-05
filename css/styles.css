@@ -1,0 +1,21 @@
+body {
+    padding: 100px 50px;
+}
+
+.left-padding-20 {
+    padding: 0 0 0 20px;
+}
+
+.horizontal-padding-50 {
+    padding: 0 50px;
+}
+
+.nav-link {
+    color: whitesmoke!important;
+    padding: 10px;
+}
+
+.active {
+    font-weight: 600;
+}
+
