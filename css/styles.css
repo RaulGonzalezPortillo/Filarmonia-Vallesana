@@ -17,6 +17,10 @@ body {
 }
 
 .active {
-    font-weight: 600;
+    font-weight: 700;
 }
 
+.light {
+    color: brown;
+    font-weight: 300;
+}
