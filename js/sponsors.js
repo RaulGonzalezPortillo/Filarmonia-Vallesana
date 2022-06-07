@@ -21,7 +21,7 @@ i18next
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
-          "hola-mundo": "Hello world"
+          "title-sponsors": "Sponsors"
         }
       },
       es: {
@@ -38,7 +38,7 @@ i18next
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
           "btn-spanish": "Español",
-          "hola-mundo": "Hola mundo"
+          "title-sponsors": "Patrocinadores"
         }
       }
     }
@@ -61,6 +61,7 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('title-sponsors').innerHTML = i18next.t('title-sponsors');
 }
 
 //Save the prefered language after changing it

@@ -11,6 +11,21 @@ body {
     padding: 0 50px;
 }
 
+.vertical-margin-50 {
+    padding: 0 px;
+}
+
+.responsive-horizontal-padding {
+    padding: 0 200px;
+}
+
+/*Increase padding on bigger screens*/
+@media only screen and (max-width: 1200px) {
+    .responsive-horizontal-padding {
+        padding: 0 75px;
+    }
+}
+
 .nav-link {
     color: whitesmoke!important;
     padding: 10px;
@@ -21,6 +36,26 @@ body {
 }
 
 .light {
-    color: brown;
+    color: #444444;
     font-weight: 300;
+}
+
+.responsive-title {
+    margin: 50px 0;
+    padding: 20px 200px;
+    background-color: #00B08B;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    .responsive-title {
+        padding: 20px 75px;
+    }
+}
+
+.emphasis {
+    color: #444444;
+    font-size: 1.5em;
 }

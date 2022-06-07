@@ -20,8 +20,7 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish",
-          "hola-mundo": "Hello world"
+          "btn-spanish": "Spanish"
         }
       },
       es: {
@@ -37,8 +36,7 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español",
-          "hola-mundo": "Hola mundo"
+          "btn-spanish": "Español"
         }
       }
     }
