@@ -19,10 +19,16 @@ body {
     padding: 0 200px;
 }
 
-/*Increase padding on bigger screens*/
+/*Decrease padding on smaller screens*/
 @media only screen and (max-width: 1200px) {
     .responsive-horizontal-padding {
         padding: 0 75px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .responsive-horizontal-padding {
+        padding: 0 50px;
     }
 }
 
@@ -49,9 +55,16 @@ body {
     font-weight: 500;
 }
 
+/*Decrease padding on smaller screens*/
 @media only screen and (max-width: 1200px) {
     .responsive-title {
         padding: 20px 75px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .responsive-title {
+        padding: 20px 50px;
     }
 }
 
