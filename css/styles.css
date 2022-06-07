@@ -1,5 +1,6 @@
 body {
-    padding: 100px 50px;
+    /*Reserve some space for the navbar*/
+    padding: 70px 0px;
 }
 
 .left-padding-20 {

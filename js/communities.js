@@ -2,8 +2,10 @@
 
 i18next
   .init({
-    lng: localStorage.getItem('language'),
-    debug: true,
+    //Set the stored prefered language, if not selected, use English.
+    lng: localStorage.getItem('language') != null? localStorage.getItem('language'): "en",
+    debug: false,
+    //Define the translations
     resources: {
       en: {
         translation: {
@@ -18,7 +20,8 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "hola-mundo": "Hello world"
         }
       },
       es: {
@@ -34,7 +37,8 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "hola-mundo": "Hola mundo"
         }
       }
     }
@@ -43,6 +47,7 @@ i18next
     updateContent();
   });
   
+//Update the contents on the page
 function updateContent() {
   document.getElementById('btn-home').innerHTML = i18next.t('btn-home');
   document.getElementById('btn-about-us').innerHTML = i18next.t('btn-about-us');
@@ -58,10 +63,11 @@ function updateContent() {
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
 }
 
+//Save the prefered language after changing it
 function changeLng(lng) {
   i18next.changeLanguage(lng);
   localStorage.setItem('language', lng)
-  console.log("Saved Changes");
+  console.log("Saved prefered language");
 }
 
 i18next.on('languageChanged', () => {
