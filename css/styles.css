@@ -1,34 +1,44 @@
 body {
     /*Reserve some space for the navbar*/
-    padding: 70px 0px;
+    padding: 85px 0px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .left-padding-20 {
-    padding: 0 0 0 20px;
+    padding-left: 20px;
 }
 
 .horizontal-padding-50 {
-    padding: 0 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .vertical-margin-50 {
-    padding: 0 px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .responsive-horizontal-padding {
-    padding: 0 200px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 /*Decrease padding on smaller screens*/
 @media only screen and (max-width: 1200px) {
     .responsive-horizontal-padding {
-        padding: 0 75px;
+        padding-left: 75px;
+        padding-right: 75px;
     }
 }
 
 @media only screen and (max-width: 650px) {
     .responsive-horizontal-padding {
-        padding: 0 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
@@ -46,29 +56,30 @@ body {
     font-weight: 300;
 }
 
-.responsive-title {
-    margin: 50px 0;
-    padding: 20px 200px;
+.title {
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #00B08B;
     color: white;
     font-size: 2em;
     font-weight: 500;
 }
 
-/*Decrease padding on smaller screens*/
-@media only screen and (max-width: 1200px) {
-    .responsive-title {
-        padding: 20px 75px;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .responsive-title {
-        padding: 20px 50px;
-    }
-}
-
 .emphasis {
     color: #444444;
     font-size: 1.5em;
+}
+
+.background-video {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.high-impact {
+    color: white;
+    font-size: 4em;
+    text-shadow: 2px 2px 20px black;
 }
