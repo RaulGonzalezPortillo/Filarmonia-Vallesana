@@ -23,7 +23,8 @@ i18next
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
-          "title-sponsors": "Sponsors"
+          "title-sponsors": "Sponsors",
+          "content-sponsors": "We'd like to thank our sponsors for supporting our cause and helping us create more experiences of integral development through music."
         }
       },
       es: {
@@ -42,7 +43,8 @@ i18next
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
           "btn-spanish": "Español",
-          "title-sponsors": "Patrocinadores"
+          "title-sponsors": "Patrocinadores",
+          "content-sponsors": "Estamos muy agradecidos con nuestros patrocinadores por apoyar nuestra causa y ayudarnos a crear más experiencias de desarrollo integral a través de la música"
         }
       }
     }
@@ -50,7 +52,7 @@ i18next
     // init set content
     updateContent();
   });
-  
+
 //Update the contents on the page
 function updateContent() {
   document.getElementById('btn-home').innerHTML = i18next.t('btn-home');
@@ -68,6 +70,7 @@ function updateContent() {
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
   document.getElementById('title-sponsors').innerHTML = i18next.t('title-sponsors');
+  document.getElementById('content-sponsors').innerHTML = i18next.t('content-sponsors');
 }
 
 //Save the prefered language after changing it
