@@ -25,6 +25,13 @@ a:active {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 576px) {
+    .container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
 .left-padding-20 {
     padding-left: 20px;
 }
@@ -56,7 +63,7 @@ a:active {
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 576px) {
     .responsive-horizontal-padding {
         padding-left: 50px;
         padding-right: 50px;
@@ -106,6 +113,12 @@ a:active {
     text-shadow: 2px 2px 20px black;
 }
 
+@media only screen and (max-width: 767px) {
+    .high-impact {
+        font-size: 2.5em;
+    }
+}
+
 .action-box {
     background: #00b08b;
     color: white;
@@ -123,12 +136,24 @@ a:active {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+    .action-box p {
+        font-size: 1em;
+    }
 }
 
 .action-box img {
     display: block;
-    height: 6em;
+    max-height: 6em;
     margin: 0px auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .action-box img {
+        height: 3em;
+    }
 }
