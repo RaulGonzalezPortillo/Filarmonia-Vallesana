@@ -22,7 +22,11 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "first-display-text": "Be part of the most innovative musical and pedagogical training program.",
+          "btn-franchise": "Franchise",
+          "btn-donation": "Donation",
+          "btn-sponsorship": "Sponsorship"
         }
       },
       es: {
@@ -40,7 +44,11 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "first-display-text": "Sé parte del programa de entrenamiento pedagógico músical más innovador.",
+          "btn-franchise": "Franquicia",
+          "btn-donation": "Donación",
+          "btn-sponsorship": "Patrocinio"
         }
       }
     }
@@ -64,7 +72,10 @@ function updateContent() {
   document.getElementById('btn-get-involved').innerHTML = i18next.t('btn-get-involved');
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
-  document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('first-display-text').innerHTML = i18next.t('first-display-text');
+  document.getElementById('btn-franchise').innerHTML = i18next.t('btn-franchise');
+  document.getElementById('btn-donation').innerHTML = i18next.t('btn-donation');
+  document.getElementById('btn-sponsorship').innerHTML = i18next.t('btn-sponsorship');
 }
 
 //Save the prefered language after changing it
