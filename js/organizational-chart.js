@@ -12,7 +12,6 @@ i18next
           "btn-home": "Home",
           "btn-about-us": "About us",
           "btn-what-we-do": "What we do",
-          "btn-communities": "Communities",
           "btn-organizational-chart": "Organizational chart",
           "btn-transparency": "Transparency",
           "btn-privacy-notice": "Privacy notice",
@@ -30,7 +29,6 @@ i18next
           "btn-home": "Inicio",
           "btn-about-us": "Conócenos",
           "btn-what-we-do": "Lo que hacemos",
-          "btn-communities": "Comunidades",
           "btn-organizational-chart": "Diagrama organizacional",
           "btn-transparency": "Transparencia",
           "btn-privacy-notice": "Aviso de privacidad",
@@ -54,7 +52,6 @@ function updateContent() {
   document.getElementById('btn-home').innerHTML = i18next.t('btn-home');
   document.getElementById('btn-about-us').innerHTML = i18next.t('btn-about-us');
   document.getElementById('btn-what-we-do').innerHTML = i18next.t('btn-what-we-do');
-  document.getElementById('btn-communities').innerHTML = i18next.t('btn-communities');
   document.getElementById('btn-organizational-chart').innerHTML = i18next.t('btn-organizational-chart');
   document.getElementById('btn-transparency').innerHTML = i18next.t('btn-transparency');
   document.getElementById('btn-privacy-notice').innerHTML = i18next.t('btn-privacy-notice');

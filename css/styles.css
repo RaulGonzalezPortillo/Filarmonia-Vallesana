@@ -1,6 +1,11 @@
+* {
+    transition: width 0.25s, height 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
 body {
     /*Reserve some space for the navbar*/
-    padding: 85px 0px;
+    padding: 85px 0;
 }
 
 html, body {
@@ -9,7 +14,7 @@ html, body {
 }
 
 a:link { 
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:visited {
@@ -46,24 +51,50 @@ a:active {
     margin-bottom: 50px;
 }
 
-.top-margin-100 {
+.responsive-top-margin {
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 1200px) {
+    .responsive-top-margin {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .responsive-top-margin {
+        margin-top: 50px;
+    }
+}
+
 .responsive-horizontal-padding {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 310px;
+    padding-right: 310px;
 }
 
 /*Decrease padding on smaller screens*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1700px) {
+    .responsive-horizontal-padding {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .responsive-horizontal-padding {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .responsive-horizontal-padding {
         padding-left: 75px;
         padding-right: 75px;
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     .responsive-horizontal-padding {
         padding-left: 50px;
         padding-right: 50px;
@@ -93,9 +124,21 @@ a:active {
     font-weight: 500;
 }
 
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 1.5em;
+    }
+}
+
 .emphasis {
     color: #444444;
-    font-size: 1.5em;
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 768px) {
+    .emphasis {
+        font-size: 1.3em;
+    }
 }
 
 .background-video {
@@ -107,13 +150,31 @@ a:active {
     filter: brightness(66%);
 }
 
+@media only screen and (max-width: 1200px) {
+    .background-video {
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .background-video {
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .background-video {
+        height: 100vh;
+    }
+}
+
 .high-impact {
     color: white;
     font-size: 4em;
-    text-shadow: 2px 2px 20px black;
+    text-shadow: 0 0 20px black;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .high-impact {
         font-size: 2.5em;
     }
@@ -140,7 +201,7 @@ a:active {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .action-box p {
         font-size: 1em;
     }
@@ -152,8 +213,54 @@ a:active {
     margin: 0px auto;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .action-box img {
         height: 3em;
+    }
+}
+
+.horizontally-scrollable {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.communities-container {
+    background-color: #00b08b;
+}
+
+.communities-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.community-box {
+    margin-right: 30px;
+}
+
+.community-box p {
+    margin: 0 0;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    bottom: 40px;
+    left: 20px;
+    font-size: 1.3em;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.community-box img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+
+@media only screen and (max-width: 768px) {
+    .community-box img {
+        height: 200px;
+        width: 250px;
     }
 }
