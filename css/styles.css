@@ -32,8 +32,8 @@ a:active {
 
 @media only screen and (max-width: 576px) {
     .container {
-        margin-left: 40px;
-        margin-right: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
@@ -63,42 +63,22 @@ a:active {
 
 @media only screen and (max-width: 576px) {
     .responsive-top-margin {
+        margin-top: 100px;
+    }
+}
+
+.responsive-paragraph-top-margin {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-paragraph-top-margin {
         margin-top: 50px;
     }
 }
 
-.responsive-horizontal-padding {
-    padding-left: 310px;
-    padding-right: 310px;
-}
-
-/*Decrease padding on smaller screens*/
-@media only screen and (max-width: 1700px) {
-    .responsive-horizontal-padding {
-        padding-left: 200px;
-        padding-right: 200px;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    .responsive-horizontal-padding {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .responsive-horizontal-padding {
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .responsive-horizontal-padding {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+.paragraph-top-margin {
+    margin-top: 50px;
 }
 
 .nav-link {
@@ -110,9 +90,10 @@ a:active {
     font-weight: 700;
 }
 
-.light {
+.paragraph {
     color: #444444;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.1em;
 }
 
 .title {
@@ -133,6 +114,7 @@ a:active {
 .emphasis {
     color: #444444;
     font-size: 1.7em;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 768px) {
@@ -262,5 +244,10 @@ a:active {
     .community-box img {
         height: 200px;
         width: 250px;
+        
     }
+}
+
+.image-shadow {
+    filter: drop-shadow(0 0 15px gray);
 }
