@@ -52,18 +52,18 @@ a:active {
 }
 
 .responsive-top-margin {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 @media only screen and (max-width: 1200px) {
     .responsive-top-margin {
-        margin-top: 75px;
+        margin-top: 120px;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .responsive-top-margin {
-        margin-top: 100px;
+        margin-top: 90px;
     }
 }
 
@@ -77,8 +77,12 @@ a:active {
     }
 }
 
-.paragraph-top-margin {
+.top-margin-50 {
     margin-top: 50px;
+}
+
+.top-margin-100 {
+    margin-top: 100px;
 }
 
 .nav-link {
@@ -125,28 +129,26 @@ a:active {
 
 .background-video {
     position: absolute;
-    height: 100vh;
+    height: 900px;
     width: 100vw;
     object-fit: cover;
     z-index: -1;
     filter: brightness(66%);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
     .background-video {
-        height: 130vh;
+        height: 750px;
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .background-video {
-        height: 120vh;
-    }
+.background-video-size {
+    height: 900px;
 }
 
 @media only screen and (max-width: 768px) {
-    .background-video {
-        height: 100vh;
+    .background-video-size {
+        height: 750px;
     }
 }
 
@@ -170,6 +172,13 @@ a:active {
     margin: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+    .action-box {
+        padding: 10px 0;
+        margin: 10px;
+    }
+}
+
 .action-box:hover {
     box-shadow: 0 0 20px #00b08b;
     color: white;
@@ -191,7 +200,7 @@ a:active {
 
 .action-box img {
     display: block;
-    max-height: 6em;
+    max-height: 5em;
     margin: 0px auto;
 }
 

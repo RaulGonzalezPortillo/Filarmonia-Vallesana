@@ -32,7 +32,9 @@ i18next
           "content-educational-proposal": "Our learning method focuses on continually innovating the traditional education system, breaking the barriers imposed by a system thats perfectionist, repetitive, idealist and without cultural empathy, with euro-centric academic principles that deny the path or learning through trial, error and continous improvement.<br><br>We foster an active, participative and group centered education, developing abilities and skills with a focus on the students, managing to impact cultural identity for their proper adaptation and educational growth.<br><br>We don't teach, we train. We're inspired by the sports system, where playing and practicing are integrated, sharpening discipline, a sense of community and traditions.",
           "content-program-innovation": "<b>Musical education program innovation</b><br><br>• Creation of the first juvenile jazz band.<br>• Formation of the first virtual keyboards ensemble, developed online within the limits of the pandemic.",
           "content-proposals": "<b>Educational proposals</b><br>",
-          "link-proposals": "• SICOEM's recognition by Finnish organization HundrED"
+          "link-proposals": "• SICOEM's recognition by Finnish organization HundrED",
+          "high-impact-achievements": "Filarmonía Vallesana.<br><br>Social program with one of the 100 most innovative training programs in the world.",
+          "title-achievements": "Achievements"
         }
       },
       es: {
@@ -60,7 +62,9 @@ i18next
           "content-educational-proposal": "Nuestro método de aprendizaje se enfoca en la innovación continua del sistema educativo tradicional, rompiendo las barreras de estudio de un sistema perfeccionista, repetitivo, idealista y sin una empatía cultural, con fundamentos académicos euro-centristas que niega el camino del aprendizaje a través de prueba, error y mejora continua.<br><br>Fomentamos una educación activa, participativa y grupal, desarrollando habilidades y competencias con un enfoque en los alumnos, logrando impactar en la identidad cultural para su correcta adaptación y desarrollo educativo.<br><br>No enseñamos, entrenamos. Nos inspiramos en el sistema deportivo, donde se intercala entre el juego y la práctica enfocándonos en la disciplina, comunidad y tradición.",
           "content-program-innovation": "<b>Innovación del programa educativo musical</b>          <br><br>• Desarrollo de la primera banda de jazz infantil y juvenil.<br>• Formación del primer Ensamble de Teclados Digitales de Filarmonía Vallesana desarrollado en línea a raíz de la pandemia y su confinamiento.",
           "content-proposals": "<b>Propuestas educativas</b><br>",
-          "link-proposals": "• Reconocimiento de la organización Finlandesa HundrED al SICOEM"
+          "link-proposals": "• Reconocimiento de la organización Finlandesa HundrED al SICOEM",
+          "high-impact-achievements": "Filarmonía Vallesana.<br><br>Programa social con uno de los 100 sistemas de entrenamiento más innovadores del mundo.",
+          "title-achievements": "Logros"
         }
       }
     }
@@ -95,6 +99,8 @@ function updateContent() {
   document.getElementById('content-program-innovation').innerHTML = i18next.t('content-program-innovation');
   document.getElementById('content-proposals').innerHTML = i18next.t('content-proposals');
   document.getElementById('link-proposals').innerHTML = i18next.t('link-proposals');
+  document.getElementById('high-impact-achievements').innerHTML = i18next.t('high-impact-achievements');
+  document.getElementById('title-achievements').innerHTML = i18next.t('title-achievements');
 }
 
 //Save the prefered language after changing it
