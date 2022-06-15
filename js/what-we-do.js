@@ -23,7 +23,11 @@ i18next
           "btn-english": "English",
           "btn-spanish": "Spanish",
           "title-objective": "Objective",
-          "content-objective": "The most important thing for Filarmonía Vallesana is to offer children and young people new challenges and opportunities to face life through music, reducing exposure to addictions and violence in their social environment, with a mentality that promotes play-teaching-learning.<br><br>In addition to improving their lives, they inspire their families and communities, thus strengthening the social fabric."
+          "content-objective": "The most important thing for Filarmonía Vallesana is to offer children and young people new challenges and opportunities to face life through music, reducing exposure to addictions and violence in their social environment, with a mentality that promotes play-teaching-learning.<br><br>In addition to improving their lives, they inspire their families and communities, thus strengthening the social fabric.",
+          "title-mission": "Mission",
+          "content-mission": "Placeholder",
+          "title-vission": "Vision",
+          "content-vision": "Placeholder"
         }
       },
       es: {
@@ -42,7 +46,11 @@ i18next
           "btn-english": "Inglés",
           "btn-spanish": "Español",
           "title-objective": "Objetivo",
-          "content-objective": "Lo más importante para Filarmonía Vallesana es oferecer a niños y jovenes nuevos retos y oportunidades para afrontar la vida a través de la música,disminuyendo la exposición a las adicciones y la violencia de su entorno social, con una mentalidad que promueve el juego-enseñanza-aprendizaje.<br><br>Ademas de mejorar su vida, inspiran a sus familias y comunidades, logrando así, fortalecer el tejido social."
+          "content-objective": "Lo más importante para Filarmonía Vallesana es oferecer a niños y jovenes nuevos retos y oportunidades para afrontar la vida a través de la música,disminuyendo la exposición a las adicciones y la violencia de su entorno social, con una mentalidad que promueve el juego-enseñanza-aprendizaje.<br><br>Ademas de mejorar su vida, inspiran a sus familias y comunidades, logrando así, fortalecer el tejido social.",
+          "title-mission": "Misión",
+          "content-mission": "Generar una experiencia colectiva de desarrollo social, integrando a niños y jovenes de diversos niveles socioeconómicos a través de la música, canalizando su tiempo de ocio en actividades de estudio y aprendizaje, que permitan un sano desarrollo, valores cívicos y habilidades cognitivas, sociales e intelectuales, que nutran su autoestima, fomenten su busqueda de la excelencia e incentiven su creatividad.",
+          "title-vission": "Visión",
+          "content-vission": "Ser un referente entre las organizaciones sociales, por su solidez y la trascendencia de su trabajo, así como, por la capacidad de potenciar de manera efectiva el desarrollo intelectual, social y la sana convivencia, siempre contando con la participación de los habitantes de las comunidades, colonias y barrios, principalmente en Valle de Bravo y municipios cercanos."
         }
       }
     }
@@ -68,7 +76,9 @@ function updateContent() {
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
   document.getElementById('title-objective').innerHTML = i18next.t('title-objective');
   document.getElementById('content-objective').innerHTML = i18next.t('content-objective');
+  document.getElementById('title-mission').innerHTML = i18next.t('title-mission');
   document.getElementById('content-mission').innerHTML = i18next.t('content-mission');
+  document.getElementById('title-vission').innerHTML = i18next.t('title-vission');
   document.getElementById('content-vission').innerHTML = i18next.t('content-vission');
 }
 
