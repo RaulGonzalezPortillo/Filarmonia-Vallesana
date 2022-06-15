@@ -111,7 +111,7 @@ a:active {
 
 @media only screen and (max-width: 768px) {
     .title {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 }
 
@@ -121,9 +121,16 @@ a:active {
     font-weight: 300;
 }
 
+.emphasis-2 {
+    color: #444444;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
 @media only screen and (max-width: 768px) {
     .emphasis {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 }
 
@@ -168,13 +175,13 @@ a:active {
     background: #00b08b;
     color: white;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 15px;
 }
 
 @media only screen and (max-width: 768px) {
     .action-box {
-        padding: 10px 0;
+        padding: 10px 10px;
         margin: 10px;
     }
 }
@@ -187,7 +194,7 @@ a:active {
 .action-box p {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-size: 1.2em;
     font-weight: 500;
 }
@@ -245,7 +252,7 @@ a:active {
     height: 200px;
     width: 300px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 15px;
     filter: brightness(80%);
 }
 
@@ -253,10 +260,53 @@ a:active {
     .community-box img {
         height: 200px;
         width: 250px;
-        
     }
 }
 
 .image-shadow {
     filter: drop-shadow(0 0 15px gray);
+}
+
+.achievement-box {
+    background-color: #00b08b;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.achievement-box img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    padding: 0!important;
+    margin: 0!important;
+    border-radius: 15px 15px 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .achievement-box img {
+        max-height: 300px;
+    }
+}
+
+.achievement-box p, .achievement-box a {
+    color: white;
+    padding: 15px;
+}
+
+.achievement-box a {
+    text-decoration: underline;
+}
+
+.green-box {
+    background-color: #00b08b;
+    box-shadow: 0 0 20px #00b08b;
+}
+
+.pink-box {
+    background-color: #c30f96;
+    box-shadow: 0 0 20px #c30f96;
+}
+
+.white-text {
+    color: white;
 }

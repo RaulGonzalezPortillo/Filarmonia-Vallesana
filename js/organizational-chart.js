@@ -21,7 +21,22 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "title-organizational-chart": "Organizational chart",
+          "title-managing-board": "Managing board",
+          "content-managing-board": "<b>Patronage president:</b> Leticia Hernández Ramírez<br><b>Managing director:</b> Úrsula Verea Hernández",
+          "title-administrative-body": "Administrative body",
+          "content-administrative-body": "<b>Legal advice:</b> Horacio Mafre<br><b>Coordination and Managing director assistant:</b> Roxana Rivas Flores<br><b>Accounting department:</b> Aldo Herrera Cortez<br><b>Media department:</b> Carla González Uribe y Edna Silva<br><br><b>Valle de Bravo's coordination:</b> Ivett Velazco<br><b>Amanalco's coordination:</b> Rosa María Martínez de la Cruz<br><b>Donato Guerra's coordination:</b> Roxana Rivas Flores<br><b>Acatitlán's coordination:</b> Susana Aguilar Cerezo<br><b>Maintenance department:</b> José Manuel Colin González",
+          "title-instructional-body": "Instructional body",
+          "content-instructional-body": "<b>Managing art and SICOEM director:</b> Prospero Reyes Cedeño",
+          "title-valle-de-bravo": "Valle de Bravo",
+          "content-valle-de-bravo": "<b>Director:</b> Prospero Reyes Cedeño<br><b>Assistant director:</b> Gibran Montes de Oca Guarneros",
+          "title-amanalco": "Amanalco de Becerra",
+          "content-amanalco": "<b>Assistant director:</b> Víctor Castillo Osorio<br><br><b>Instructors:</b><br>• Julieta Soto Guadarrama<br>• Álvaro Daniel Martínez<br>• Joel Omar Martínez<br>• Berenice Pineda Santiago<br>• Denisse Pineda Santiago<br>• Álvaro Osorio Jiménez<br>• Adriana González Dolores",
+          "title-donato-guerra": "Donato Guerra",
+          "content-donato-guerra": "<b>Director:</b> Felipe Gómez Pérez<br><b>Assistant director:</b> Jesús Gómez Pérez",
+          "title-acatitlan": "Acatitlán",
+          "content-acatitlan": "<b>Assistant director:</b> Víctor Castillo Osorio",
         }
       },
       es: {
@@ -38,7 +53,22 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "title-organizational-chart": "Diagrama organizacional",
+          "title-managing-board": "Consejo directivo",
+          "content-managing-board": "<b>Presidenta patronato:</b> Leticia Hernández Ramírez<br><b>Directora general:</b> Úrsula Verea Hernández",
+          "title-administrative-body": "Órgano administrativo",
+          "content-administrative-body": "<b>Asesoría jurídica:</b> Horacio Mafre<br><b>Coordinación y asistente de dirección general:</b> Roxana Rivas Flores<br><b>Departamento contable:</b> Aldo Herrera Cortez<br><b>Departamento de medios:</b> Carla González Uribe y Edna Silva<br><br><b>Coordinación Sede Valle de Bravo:</b> Ivett Velazco<br><b>Coordinación Sede Amanalco:</b> Rosa María Martínez de la Cruz<br><b>Coordinación Sede Donato Guerra:</b> Roxana Rivas Flores<br><b>Coordinación Acatitlan:</b> Susana Aguilar Cerezo<br><b>Departamento de mantenimiento:</b> José Manuel Colin González",
+          "title-instructional-body": "Órgano docente",
+          "content-instructional-body": "<b>Director general artística y del SICOEM:</b> Prospero Reyes Cedeño",
+          "title-valle-de-bravo": "Valle de Bravo",
+          "content-valle-de-bravo": "<b>Director:</b> Prospero Reyes Cedeño<br><b>Director asistente:</b> Gibran Montes de Oca Guarneros",
+          "title-amanalco": "Amanalco de Becerra",
+          "content-amanalco": "<b>Director asistente:</b> Víctor Castillo Osorio<br><br><b>Instructores:</b><br>• Julieta Soto Guadarrama<br>• Álvaro Daniel Martínez<br>• Joel Omar Martínez<br>• Berenice Pineda Santiago<br>• Denisse Pineda Santiago<br>• Álvaro Osorio Jiménez<br>• Adriana González Dolores",
+          "title-donato-guerra": "Donato Guerra",
+          "content-donato-guerra": "<b>Director:</b> Felipe Gómez Pérez<br><b>Director asistente:</b> Jesús Gómez Pérez",
+          "title-acatitlan": "Acatitlán",
+          "content-acatitlan": "<b>Director asistente:</b> Víctor Castillo Osorio",
         }
       }
     }
@@ -62,6 +92,22 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('title-organizational-chart').innerHTML = i18next.t('title-organizational-chart');
+  document.getElementById('title-managing-board').innerHTML = i18next.t('title-managing-board');
+  document.getElementById('content-managing-board').innerHTML = i18next.t('content-managing-board');
+  document.getElementById('title-administrative-body').innerHTML = i18next.t('title-administrative-body');
+  document.getElementById('content-administrative-body').innerHTML = i18next.t('content-administrative-body');
+  document.getElementById('title-instructional-body').innerHTML = i18next.t('title-instructional-body');
+  document.getElementById('content-instructional-body').innerHTML = i18next.t('content-instructional-body');
+  document.getElementById('title-valle-de-bravo').innerHTML = i18next.t('title-valle-de-bravo');
+  document.getElementById('content-valle-de-bravo').innerHTML = i18next.t('content-valle-de-bravo');
+  document.getElementById('title-amanalco').innerHTML = i18next.t('title-amanalco');
+  document.getElementById('content-amanalco').innerHTML = i18next.t('content-amanalco');
+  document.getElementById('title-donato-guerra').innerHTML = i18next.t('title-donato-guerra');
+  document.getElementById('content-donato-guerra').innerHTML = i18next.t('content-donato-guerra');
+  document.getElementById('title-acatitlan').innerHTML = i18next.t('title-acatitlan');
+  document.getElementById('content-acatitlan').innerHTML = i18next.t('content-acatitlan');
+  //document.getElementById('').innerHTML = i18next.t('');
 }
 
 //Save the prefered language after changing it

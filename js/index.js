@@ -29,12 +29,22 @@ i18next
           "title-where": "Where we act",
           "title-what-is": "What is Filarmonía Vallesana?",
           "content-what-is": "Filarmonía Vallesana is a Social Program that impacts society through pedagogical and musical training.<br><br>It all begins in June 2011, with a high quality musical development model for children from 6 to 18 years old with limited recourses, that serves as a complement for school and home education with the objective of full-fledged development of the personality of the child.<br><br>At Filarmonía Vallesana we want to create a collective social development experience, integrating children from various socio-economic levels through music, channeling their time in study and learning activities, that will allow a healthy growth, civic values, cognitive, social and intellectual abilities, a rich self esteem, a search for excellence and creativity, all through musical teaching.<br><br>We want a youth that, thanks to the integral development of their abilities and talent, has a sense of belonging, pride and self esteem, generating the vission for a better future for them and their families, strenghtening the social fabric and showcasing the mexican talent.",
-          "content-educational-proposal": "Our learning method focuses on continually innovating the traditional education system, breaking the barriers imposed by a system thats perfectionist, repetitive, idealist and without cultural empathy, with euro-centric academic principles that deny the path or learning through trial, error and continous improvement.<br><br>We foster an active, participative and group centered education, developing abilities and skills with a focus on the students, managing to impact cultural identity for their proper adaptation and educational growth.<br><br>We don't teach, we train. We're inspired by the sports system, where playing and practicing are integrated, sharpening discipline, a sense of community and traditions.",
+          "content-educational-proposal": "Our learning method focuses on continually innovating the traditional education system, breaking the barriers imposed by a system that's perfectionist, repetitive, idealist and without cultural empathy, with euro-centric academic principles that deny the path or learning through trial, error and continous improvement.<br><br>We foster an active, participative and group centered education, developing abilities and skills with a focus on the students, managing to impact cultural identity for their proper adaptation and educational growth.<br><br>We don't teach, we train. We're inspired by the sports system, where playing and practicing are integrated, sharpening discipline, a sense of community and traditions.",
           "content-program-innovation": "<b>Musical education program innovation</b><br><br>• Creation of the first juvenile jazz band.<br>• Formation of the first virtual keyboards ensemble, developed online within the limits of the pandemic.",
           "content-proposals": "<b>Educational proposals</b><br>",
           "link-proposals": "• SICOEM's recognition by Finnish organization HundrED",
           "high-impact-achievements": "Filarmonía Vallesana.<br><br>Social program with one of the 100 most innovative training programs in the world.",
-          "title-achievements": "Achievements"
+          "title-achievements": "Achievements",
+          "content-hundred-1": "Professor Próspero and our team were present at HundrED's 2018 Innovation Summit at Helinski, Finnland, sharing experiences and knowledge with the greatest education innovators in the world.",
+          "content-hector-infanzon": "Concerts with Hector Infanzón, Hernando Castro, Daniel Wong (from MAD trio) and Felipe Gordillo",
+          "content-julio-castillo": "Concert at the Julio Castillo teather, along with great international singers such as Olivia Gorra and James Dempster.",
+          "content-quintana-roo": "First juvenile Jazz festival in Quintana Roo, México.",
+          "content-forum": "Concert at the opening of the International Forum against Internet Violence in 2014, at the Memory and Tolerance Museum in México City.",
+          "content-hundred-2": "Our musical training program, in place since 2012 and created by our principal, professor Próspero Reyes, has been selected by international organization HundrED as one of the 100 most innovative education programs.",
+          "content-santa-maria": "Santa María concert 6 months after the start of the program.",
+          "content-primer-festival": "First band festival in Valle de Bravo with the participation of the “Big Band Jazz México”.",
+          "content-jazz-pop": "Concerts “Juvenile Jazz & Pop Symphony” (violin ensemble) with OSN at Palacio de las Bellas artes, directed by professor Próspero Reyes.",
+          "content-radio-imer": "2 concerts to celebrate internacional Jazz day and Children's day at IMER."
         }
       },
       es: {
@@ -64,7 +74,17 @@ i18next
           "content-proposals": "<b>Propuestas educativas</b><br>",
           "link-proposals": "• Reconocimiento de la organización Finlandesa HundrED al SICOEM",
           "high-impact-achievements": "Filarmonía Vallesana.<br><br>Programa social con uno de los 100 sistemas de entrenamiento más innovadores del mundo.",
-          "title-achievements": "Logros"
+          "title-achievements": "Logros",
+          "content-hundred-1": "El Maestro Próspero y nuestros directivos estuvieron presentes en la Cumbre de Innovación HundrED 2018 en Helsinki, Finlandia, compartiendo experiencias y conocimientos al lado de los más importantes innovadores del mundo en temas de educación.",
+          "content-hector-infanzon": "Conciertos con Hector Infanzón, Hernando Castro, Daniel Wong (de MAD trio) y Felipe Gordillo.",
+          "content-julio-castillo": "Concierto en el teatro Julio Castillo alternando con grandes solistas internacionales como la maestra Olivia Gorra y el maestro James Dempster.",
+          "content-quintana-roo": "Realización del Primer Festival de Jazz Infantil y Juvenil en Quintana Roo, Mexico.",
+          "content-forum": "Concierto de inauguración en el Foro Internacional contra la violencia en internet 2014 en el Museo Memoria y Tolerancia de la Ciudad de México.",
+          "content-hundred-2": "Nuestro Sistema de Entrenamiento Musical, aplicado en Filarmonía Vallesana desde el año 2012 y creado por nuestro Director, el Maestro Próspero Reyes, ha sido seleccionado por la organización mundial HundrED como uno de los 100 Programas de Enseñanza más innovadores del mundo.",
+          "content-santa-maria": "Concierto Santa María A los 6 meses de iniciado el programa.",
+          "content-primer-festival": "Primer Festival de Bandas en Valle de Bravo con la participacion de la “Big Band Jazz de México”.",
+          "content-jazz-pop": "Conciertos “Jazz & Pop Sinfónico Infantil” (ensamble de violines) con la OSN en el Palacio de las Bellas Artes dirigido por el maestro Próspero Reyes.",
+          "content-radio-imer": "2 conciertos para celebrar el Día Internacional del Jazz en el IMER en coincidencia con el Día del Niño."
         }
       }
     }
@@ -101,6 +121,16 @@ function updateContent() {
   document.getElementById('link-proposals').innerHTML = i18next.t('link-proposals');
   document.getElementById('high-impact-achievements').innerHTML = i18next.t('high-impact-achievements');
   document.getElementById('title-achievements').innerHTML = i18next.t('title-achievements');
+  document.getElementById('content-hundred-1').innerHTML = i18next.t('content-hundred-1');
+  document.getElementById('content-hector-infanzon').innerHTML = i18next.t('content-hector-infanzon');
+  document.getElementById('content-julio-castillo').innerHTML = i18next.t('content-julio-castillo');
+  document.getElementById('content-quintana-roo').innerHTML = i18next.t('content-quintana-roo');
+  document.getElementById('content-forum').innerHTML = i18next.t('content-forum');
+  document.getElementById('content-hundred-2').innerHTML = i18next.t('content-hundred-2');
+  document.getElementById('content-santa-maria').innerHTML = i18next.t('content-santa-maria');
+  document.getElementById('content-primer-festival').innerHTML = i18next.t('content-primer-festival');
+  document.getElementById('content-jazz-pop').innerHTML = i18next.t('content-jazz-pop');
+  document.getElementById('content-radio-imer').innerHTML = i18next.t('content-radio-imer');
 }
 
 //Save the prefered language after changing it
