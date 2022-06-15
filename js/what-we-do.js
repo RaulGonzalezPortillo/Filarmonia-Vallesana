@@ -21,7 +21,9 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "title-objective": "Objective",
+          "content-objective": "The most important thing for Filarmonía Vallesana is to offer children and young people new challenges and opportunities to face life through music, reducing exposure to addictions and violence in their social environment, with a mentality that promotes play-teaching-learning.<br><br>In addition to improving their lives, they inspire their families and communities, thus strengthening the social fabric."
         }
       },
       es: {
@@ -38,7 +40,9 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "title-objective": "Objetivo",
+          "content-objective": "Lo más importante para Filarmonía Vallesana es oferecer a niños y jovenes nuevos retos y oportunidades para afrontar la vida a través de la música,disminuyendo la exposición a las adicciones y la violencia de su entorno social, con una mentalidad que promueve el juego-enseñanza-aprendizaje.<br><br>Ademas de mejorar su vida, inspiran a sus familias y comunidades, logrando así, fortalecer el tejido social."
         }
       }
     }
@@ -46,7 +50,7 @@ i18next
     // init set content
     updateContent();
   });
-  
+
 //Update the contents on the page
 function updateContent() {
   document.getElementById('btn-home').innerHTML = i18next.t('btn-home');
@@ -62,6 +66,10 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('title-objective').innerHTML = i18next.t('title-objective');
+  document.getElementById('content-objective').innerHTML = i18next.t('content-objective');
+  document.getElementById('content-mission').innerHTML = i18next.t('content-mission');
+  document.getElementById('content-vission').innerHTML = i18next.t('content-vission');
 }
 
 //Save the prefered language after changing it

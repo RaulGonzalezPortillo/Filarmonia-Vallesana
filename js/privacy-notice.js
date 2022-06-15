@@ -21,7 +21,8 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          
         }
       },
       es: {
@@ -38,7 +39,9 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "title-privacy-notice": "Aviso de privacidad",
+          "content-privacy-notice": "<p>Con fundamento en lo establecido en la Ley Federal de Protecci&oacute;n de Datos Personales en Posesi&oacute;n de los Particulares, mediante la cual se obliga a los particulares, sean personas f&iacute;sicas o morales de car&aacute;cter privado, que lleven a cabo el tratamiento de datos personales, ponemos a su disposici&oacute;n los avisos de privacidad correspondientes, a efecto de garantizar la privacidad y el derecho a la autodeterminaci&oacute;n informativa de las personas que nos proporcionan datos personales.</p>"
         }
       }
     }
@@ -62,6 +65,8 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('title-privacy-notice').innerHTML = i18next.t('title-privacy-notice');
+  document.getElementById('content-privacy-notice').innerHTML = i18next.t('content-privacy-notice');
 }
 
 //Save the prefered language after changing it
