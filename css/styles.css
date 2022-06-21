@@ -121,17 +121,17 @@ a:active {
     font-weight: 300;
 }
 
-.emphasis-2 {
-    color: #444444;
-    font-size: 1.7em;
-    font-weight: 500;
-    margin-top: 10px;
-}
-
 @media only screen and (max-width: 768px) {
     .emphasis {
         font-size: 1.4em;
     }
+}
+
+.emphasis-2 {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 .background-video {
@@ -223,10 +223,6 @@ a:active {
     white-space: nowrap;
 }
 
-.communities-container {
-    background-color: #00b08b;
-}
-
 .communities-row {
     display: flex;
     flex-direction: row;
@@ -305,8 +301,4 @@ a:active {
 .pink-box {
     background-color: #c30f96;
     box-shadow: 0 0 20px #c30f96;
-}
-
-.white-text {
-    color: white;
 }

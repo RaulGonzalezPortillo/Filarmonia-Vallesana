@@ -19,65 +19,102 @@
     <script src="js/students.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <header>
-      <!--Fixed Navbar that utilizes all available horizontal space-->
-      <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
-        <!--Clickable brand logo-->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
-        </a>
-        <!--Responsive hamburguer menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <!--Navbar list. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link"href="index.html" id="btn-home">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
-                About us
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do">What we do</a></li>
-                <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart">Organizational chart</a></li>
-                <li><a class="dropdown-item" href="transparency.html" id="btn-transparency">Transparency</a></li>
-                <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice">Privacy notice</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sponsors.html" id="btn-sponsors">Sponsors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page href="students.html" id="btn-students">Students</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyects.html" id="btn-proyects">Proyects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="get-involved.html" id="btn-get-involved">Get involved</a>
-            </li>
-          </ul>
-          <!--Language selector. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
-                Language
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english">English</a></li>
-                <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish">Spanish</a></li>
-              </ul>
-            </li>
-          </ul>
-          <!--Secondary brand logo, hide on mobile-->
-          <div class="d-none d-lg-block left-padding-20">
-            <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
-          </div>
+  <header>
+    <!--Fixed Navbar that utilizes all available horizontal space-->
+    <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
+      <!--Clickable brand logo-->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
+      </a>
+      <!--Responsive hamburguer menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!--Navbar list. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"href="index.html" id="btn-home">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
+              About us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do">What we do</a></li>
+              <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart">Organizational chart</a></li>
+              <li><a class="dropdown-item" href="transparency.html" id="btn-transparency">Transparency</a></li>
+              <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice">Privacy notice</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html" id="btn-sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page href="students.html" id="btn-students">Students</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyects.html" id="btn-proyects">Proyects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="get-involved.html" id="btn-get-involved">Get involved</a>
+          </li>
+        </ul>
+        <!--Language selector. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english">English</a></li>
+              <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish">Spanish</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--Secondary brand logo, hide on mobile-->
+        <div class="d-none d-lg-block left-padding-20">
+          <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
+  <div class="title vertical-margin-50">
+    <div class="container" id="title-students"></div>
+  </div>
+  <div class="container">
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12">
+        <img src="img/students/collage.jpg" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-students"></p>
+      </div>
+    </div>
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12">
+        <img src="img/students/social-inclusion.jpg" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-social-inclusion"></p>
+      </div>
+    </div>
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12">
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/eHzfjlWyxoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 col-12 gx-5">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-strategy"></p>
+      </div>
+    </div>
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12 text-center">
+        <img src="img/students/5.png" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-achievements"></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
