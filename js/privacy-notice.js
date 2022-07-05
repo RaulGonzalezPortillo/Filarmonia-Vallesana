@@ -15,13 +15,15 @@ i18next
           "btn-organizational-chart": "Organizational chart",
           "btn-transparency": "Transparency",
           "btn-privacy-notice": "Privacy notice",
-          "btn-sponsors": "Sponsors",
+          "btn-sponsors": "Supporters",
           "btn-students": "Students",
           "btn-proyects": "Proyects",
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
+          "title-privacy-notice": "Privacy notice",
+          "content-privacy-notice": "Based on the provisions of the Federal Law for the Protection of Personal Data in Possession of Individuals, which obliges individuals, whether private individuals or companies, who carry out the processing of personal data, we make available the corresponding privacy notices, in order to ensure the privacy and the right to informational self-determination of persons who provide us with personal data."
           
         }
       },

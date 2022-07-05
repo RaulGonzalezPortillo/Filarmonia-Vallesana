@@ -15,7 +15,7 @@ i18next
           "btn-organizational-chart": "Organizational chart",
           "btn-transparency": "Transparency",
           "btn-privacy-notice": "Privacy notice",
-          "btn-sponsors": "Sponsors",
+          "btn-sponsors": "Supporters",
           "btn-students": "Students",
           "btn-proyects": "Proyects",
           "btn-get-involved": "Get involved",

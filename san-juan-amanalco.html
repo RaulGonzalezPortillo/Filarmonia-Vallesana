@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Juan Amanalco - Filarmonía Vallesana</title>
+    <title>Amanalco de Becerra - Filarmonía Vallesana</title>
     <!--Normalize CSS-->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!--Bootstrap CSS-->
@@ -19,63 +19,92 @@
     <script src="js/san-juan-amanalco.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <header>
-      <!--Fixed Navbar that utilizes all available horizontal space-->
-      <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
-        <!--Clickable brand logo-->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
-        </a>
-        <!--Responsive hamburguer menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <!--Navbar list. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html" id="btn-home"></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
-                <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
-                <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
-                <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="students.html" id="btn-students"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyects.html" id="btn-proyects"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
-            </li>
-          </ul>
-          <!--Language selector. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
-                <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
-              </ul>
-            </li>
-          </ul>
-          <!--Secondary brand logo, hide on mobile-->
-          <div class="d-none d-lg-block left-padding-20">
-            <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
-          </div>
+  <header>
+    <!--Fixed Navbar that utilizes all available horizontal space-->
+    <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
+      <!--Clickable brand logo-->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
+      </a>
+      <!--Responsive hamburguer menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!--Navbar list. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="btn-home"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
+              <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
+              <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
+              <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="students.html" id="btn-students"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyects.html" id="btn-proyects"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
+          </li>
+        </ul>
+        <!--Language selector. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
+              <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--Secondary brand logo, hide on mobile-->
+        <div class="d-none d-lg-block left-padding-20">
+          <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
+  <div class="title vertical-margin-50">
+    <div class="container" id="title-amanalco"></div>
+  </div>
+  <div class="container">
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12 text-center">
+        <img src="img/communities/san-juan-amanalco/trombones.JPG" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-organization"></p>
+      </div>
+    </div>
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12 text-center">
+        <img src="img/communities/san-juan-amanalco/flutes.JPG" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-description"></p>
+      </div>
+    </div>
+    <div class="row my-5 gx-5">
+      <div class="col-lg-6 col-12 text-center">
+        <img src="img/communities/san-juan-amanalco/chorus.JPG" alt="" style="max-width: 100%;">
+      </div>
+      <div class="col-lg-6 col-12">
+        <p class="paragraph responsive-paragraph-top-margin" id="content-details"></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

@@ -15,15 +15,15 @@ i18next
           "btn-organizational-chart": "Organizational chart",
           "btn-transparency": "Transparency",
           "btn-privacy-notice": "Privacy notice",
-          "btn-sponsors": "Sponsors",
+          "btn-sponsors": "Supporters",
           "btn-students": "Students",
           "btn-proyects": "Proyects",
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
-          "title-sponsors": "Sponsors",
-          "content-sponsors": "We'd like to thank our sponsors for supporting our cause and helping us create more experiences of integral development through music."
+          "title-sponsors": "Supporters",
+          "content-sponsors": "We are very grateful to our sponsors for supporting our cause and helping us create more life-changing development experiences through music."
         }
       },
       es: {

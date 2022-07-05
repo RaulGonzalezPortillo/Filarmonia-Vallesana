@@ -16,12 +16,16 @@ i18next
           "btn-transparency": "Transparency",
           "btn-privacy-notice": "Privacy notice",
           "btn-sponsors": "Sponsors",
-          "btn-students": "Students",
+          "btn-students": "Supporters",
           "btn-proyects": "Proyects",
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "title-valle-de-bravo": "Valle de Bravo",
+          "content-organization": "<strong>Director</strong><br />Prof. Pr&oacute;spero Reyes Cede&ntilde;o.<br /><br /><strong>Coordination</strong><br />Leticia Ivett Velasco Sandoval.<br /><br /><strong>Assistant Director</strong><br />Gibran Montes de oca Guarneros.<br /><br /><strong>Department of Technology and Instrumental maintenance</strong><br />Jos&eacute; Manuel Col&iacute;n Gonz&aacute;lez.<br /><br /><strong>Intendance</strong><br />Rosalina L&oacute;pez G&oacute;mez.",
+          "content-description": "With its lake, waterfalls and forest, Valle de Bravo is the heart and engine of the program. Based on a solid work team, we propose and develop diverse projects for the expansion and development of the participating communities in diverse contextual programs such as:<br /><br />&bull; Chamber orchestra<br />&bull; Violin ensemble<br />&bull; Symphonic band<br />&bull; Jazz band<br />&bull; Choir and recorder<br />&bull; Guitars<br />&bull; Mariachi<br />&bull; Training of instructors <br />&bull; Instrumental technology<br />&bull; Elaboration of didactic materials",
+          "content-details": "It's also the center of intercommunity cooperation and communication for concerts, programs and special projects. Some examples are the training of instructors, which is emerging as the future developer and continuator of our program, or the department of technology and instrumental maintenance, fundamental for the maintenance and development of the program."
         }
       },
       es: {
