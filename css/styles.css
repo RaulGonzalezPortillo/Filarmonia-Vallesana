@@ -37,6 +37,11 @@ a:active {
     }
 }
 
+strong {
+    opacity: 0.80;
+    font-size: 1.4em;
+}
+
 .left-padding-20 {
     padding-left: 20px;
 }
@@ -95,7 +100,7 @@ a:active {
 }
 
 .paragraph {
-    color: #444444;
+    opacity: 0.9;
     font-weight: 400;
     font-size: 1.1em;
 }
@@ -104,7 +109,7 @@ a:active {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #00b08b;
-    color: white;
+    color: #e7fffa;
     font-size: 2em;
     font-weight: 500;
 }
@@ -116,9 +121,9 @@ a:active {
 }
 
 .emphasis {
-    color: #444444;
+    opacity: 0.80;
     font-size: 1.7em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 768px) {
@@ -260,7 +265,7 @@ a:active {
 }
 
 .image-shadow {
-    filter: drop-shadow(0 0 15px gray);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
 }
 
 .achievement-box {

@@ -21,7 +21,10 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "content-organization": "<strong>Director and Community Manager</strong><br />Adriana Gonz&aacute;lez Dolores.",
+          "content-description": "San Jeronimo is a community in the municipality of Amanalco where the project of Filarmonia Vallesana's musical training methodology is being implemented.<br /><br />San Jeronimo is part of the expansion project with the idea of providing new opportunities for children and young people, thanks to sponsors who have believed in the project of education to continue forming a society with values.",
+          "content-details": "Belonging to Filarmon&iacute;a from a very young age, this venue has participated in all ensembles and major concerts, tours, etc. This allows it to develop its community in a natural and constant way.<br /><br />In addition, this branch has participated in the Second Generation Instructor Training Program for the last 4 years."
         }
       },
       es: {
@@ -38,7 +41,10 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "content-organization": "<strong>Directora y L&iacute;der Comunitaria</strong><br />Adriana Gonz&aacute;lez Dolores.",
+          "content-description": "San Jer&oacute;nimo es una comunidad del Municipio de Amanalco en donde se lleva a cabo la implementaci&oacute;n de la metodolog&iacute;a de entrenamiento musical de Filarmon&iacute;a Vallesana.<br /><br />Es parte del proyecto de expansi&oacute;n con la idea de brindar nuevas oportunidades a ni&ntilde;os y j&oacute;venes, gracias a patrocinadores que han cre&iacute;do en el proyecto de la educaci&oacute;n para seguir formando una sociedad con valores.",
+          "content-details": "Perteneciente a Filarmon&iacute;a desde muy tierna edad, esta sede ha participado en todos los ensambles y principales conciertos, giras, etc. Lo cual le permite desarrollar su comunidad de forma natural y constante.<br /><br />Adem&aacute;s, esta sede participa en el programa de Capacitaci&oacute;n de Instructores Segunda Generaci&oacute;n desde hace 4 a&ntilde;os."
         }
       }
     }
@@ -62,6 +68,9 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('content-organization').innerHTML = i18next.t('content-organization');
+  document.getElementById('content-description').innerHTML = i18next.t('content-description');
+  document.getElementById('content-details').innerHTML = i18next.t('content-details');
 }
 
 //Save the prefered language after changing it

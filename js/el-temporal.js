@@ -21,7 +21,10 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "content-organization": "<strong>Director and Community Leader</strong><br />&Aacute;lvaro Osorio Jim&eacute;nez.<br /><br /><strong>Group Coordinator</strong><br />Virginia Rosas Osorio",
+          "content-description": "El Temporal is a community that belongs to the municipality of Amanalco where the methodology of the Filarmon&iacute;a Vallesana program is developed.<br /><br />The development of our community is the result of the Training for Instructors program that promotes not only the pedagogical vocation but also the leadership skills in the participants of the different communities.",
+          "content-details": "Examples such as the case of Director &Aacute;lvaro Osorio Jim&eacute;nez, a brilliant and talented participant of Filarmon&iacute;a Vallesana, Filarmon&iacute;a San Juan Amanalco and community leader belonging to the Second Generation of Instructors.<br /><br />It provides a space for coexistence with new opportunities for growth, development, training and communication with other communities that are part of the program through collaborative musical instruction and inter-community support."
         }
       },
       es: {
@@ -38,7 +41,10 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "content-organization": "<strong>Director y L&iacute;der Comunitario</strong><br />&Aacute;lvaro Osorio Jim&eacute;nez.<br /><br /><strong>Coordinaci&oacute;n de Grupo</strong><br />Virginia Rosas Osorio <br /><br />",
+          "content-description": "El Temporal es una comunidad perteneciente al Municipio de Amanalco donde se desarrolla la metodolog&iacute;a del programa Filarmon&iacute;a Vallesana. El desarrollo de nuestra comunidad es resultado del programa de Capacitaci&oacute;n para Instructores que promueve no solo la vocaci&oacute;n pedag&oacute;gica sino tambi&eacute;n las capacidades de liderazgo en los participantes de las diferentes comunidades.",
+          "content-details": "Ejemplos como el caso del Director &Aacute;lvaro Osorio Jim&eacute;nez, brillante y talentoso participante de Filarmon&iacute;a Vallesana, Filarmon&iacute;a San Juan Amanalco y L&iacute;der comunitario perteneciente a la Segunda Generaci&oacute;n de Instructores.<br /><br />Brinda un espacio de convivencia con nuevas oportunidades de crecimiento, desarrollo, formaci&oacute;n y comunicaci&oacute;n con otras comunidades pertenecientes al programa a partir de la instrucci&oacute;n musical de colaboraci&oacute;n y apoyo intercomunitario."
         }
       }
     }
@@ -62,6 +68,9 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('content-organization').innerHTML = i18next.t('content-organization');
+  document.getElementById('content-description').innerHTML = i18next.t('content-description');
+  document.getElementById('content-details').innerHTML = i18next.t('content-details');
 }
 
 //Save the prefered language after changing it
