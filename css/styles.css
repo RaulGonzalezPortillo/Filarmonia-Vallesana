@@ -5,7 +5,7 @@
 
 body {
     /*Reserve some space for the navbar*/
-    padding: 85px 0;
+    padding: 85px 0 0 0;
 }
 
 html, body {
@@ -306,4 +306,8 @@ strong {
 .pink-box {
     background-color: #c30f96;
     box-shadow: 0 0 20px #c30f96;
+}
+
+.sponsors-bar-image {
+    max-width: 100%;
 }

@@ -19,218 +19,245 @@
     <script src="js/index.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <header>
-      <!--Fixed Navbar that utilizes all available horizontal space-->
-      <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
-        <!--Clickable brand logo-->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
-        </a>
-        <!--Responsive hamburguer menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <!--Navbar list. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html" id="btn-home"></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
-                <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
-                <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
-                <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="students.html" id="btn-students"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyects.html" id="btn-proyects"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
-            </li>
-          </ul>
-          <!--Language selector. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
-                <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
-              </ul>
-            </li>
-          </ul>
-          <!--Secondary brand logo, hide on mobile-->
-          <div class="d-none d-lg-block left-padding-20">
-            <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
-          </div>
-        </div>
-      </nav>
-    </header>
-    <video src="img/home/cover.webm" class="background-video" autoplay muted loop></video>
-    <div class="container background-video-size">
-      <div class="row">
-        <div class="col-lg-8 col-md-12 col-11">
-          <h1 class="responsive-top-margin high-impact" id="first-display-text"><h1/>
+  <header>
+    <!--Fixed Navbar that utilizes all available horizontal space-->
+    <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
+      <!--Clickable brand logo-->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
+      </a>
+      <!--Responsive hamburguer menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!--Navbar list. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="btn-home"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
+              <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
+              <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
+              <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="students.html" id="btn-students"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyects.html" id="btn-proyects"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
+          </li>
+        </ul>
+        <!--Language selector. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
+              <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--Secondary brand logo, hide on mobile-->
+        <div class="d-none d-lg-block left-padding-20">
+          <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
         </div>
       </div>
-      <!--Call to action-->
-      <div class="row vertical-margin-50">
-        <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
-          <img src="img/home/franchise.png" alt="Franchise icon">
-          <p id="btn-franchise"></p>
+    </nav>
+  </header>
+  <video src="img/home/cover.webm" class="background-video" autoplay muted loop></video>
+  <div class="container background-video-size">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-11">
+        <h1 class="responsive-top-margin high-impact" id="first-display-text"><h1/>
+      </div>
+    </div>
+    <!--Call to action-->
+    <div class="row vertical-margin-50">
+      <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
+        <img src="img/home/franchise.png" alt="Franchise icon">
+        <p id="btn-franchise"></p>
+      </a>
+      <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
+        <img src="img/home/donation.png" alt="Donation icon">
+        <p id="btn-donation"></p>
+      </a>
+      <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
+        <img src="img/home/sponsorship.png" alt="Sponsorship icon">
+        <p id="btn-sponsorship"></p>
+      </a>
+    </div>
+  </div>
+  <div class="title">
+    <div class="container" id="title-where"></div>
+  </div>
+  <!--Where we act-->
+  <div class="horizontally-scrollable" style="background-color: #00b08b;">
+    <div class="container">
+      <div class="communities-row">
+        <a class="community-box" href="valle-de-bravo.html">
+          <img src="img/home/where-we-act/valle-de-bravo.jpg" alt="Valle de Bravo's Cover">
+          <p>Valle de Bravo</p>
         </a>
-        <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
-          <img src="img/home/donation.png" alt="Donation icon">
-          <p id="btn-donation"></p>
+        <a class="community-box" href="san-juan-amanalco.html">
+          <img src="img/home/where-we-act/san-juan-amanalco.jpg" alt="Amanalco de Becerras's Cover">
+          <p>Amanalco de Becerra</p>
         </a>
-        <a href="get-involved.html" class="col-lg-2 col-sm-3 col-5 mx-2 my-2 action-box">
-          <img src="img/home/sponsorship.png" alt="Sponsorship icon">
-          <p id="btn-sponsorship"></p>
+        <a class="community-box" href="acatitlan.html">
+          <img src="img/home/where-we-act/acatitlan.jpg" alt="Acatitlan's Cover">
+          <p>Acatitlán</p>
+        </a>
+        <a class="community-box" href="rincon-de-guadalupe.html">
+          <img src="img/home/where-we-act/rincon-de-guadalupe.jpg" alt="Rincón de Guadalupe's Cover">
+          <p>Rincón de Guadalupe</p>
+        </a>
+        <a class="community-box" href="el-temporal.html">
+          <img src="img/home/where-we-act/el-temporal.jpg" alt="El temporal's Cover">
+          <p>El temporal</p>
+        </a>
+        <a class="community-box" href="san-jeronimo.html">
+          <img src="img/home/where-we-act/san-jeronimo.jpg" alt="San Jerónimo's Cover">
+          <p>San Jerónimo</p>
+        </a>
+        <a class="community-box" href="donato-guerra.html">
+          <img src="img/home/where-we-act/donato-guerra.jpg" alt="Donato Guerra's Cover">
+          <p>Donato Guerra</p>
         </a>
       </div>
     </div>
-    <div class="title">
-      <div class="container" id="title-where"></div>
+  </div>
+  <div class="title vertical-margin-50">
+    <div class="container" id="title-what-is"></div>
+  </div>
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col-12 col-lg-6 image-shadow">
+        <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/eHzfjlWyxoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col">
+        <p id="content-what-is" class="paragraph responsive-paragraph-top-margin"></p>
+      </div>
     </div>
-    <!--Where we act-->
-    <div class="horizontally-scrollable" style="background-color: #00b08b;">
+  </div>
+  <!--Educational proposal-->
+  <div class="title vertical-margin-50">
+    <div class="container" id="title-educational-proposal"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <img src="img/home/educational-proposal.jpg" alt="One of Filarmonía Vallesana's presentations" class="image-shadow" style="min-height: 350px; width: 100%; object-fit: cover;">
+    </div>
+    <div class="row paragraph gx-5">
+      <div class="col-12 col-lg-6">
+        <p id="content-educational-proposal" class="top-margin-50"></p>
+      </div>
+      <div class="col">
+        <p id="content-program-innovation" class="top-margin-50"></p>
+        <p id="content-proposals" class="top-margin-50"></p>
+        <a href="https://hundred.org/en/innovations/7-aural-intelligence#52a2ea78" id="link-proposals" ></a>
+      </div>
+    </div>
+  </div>
+  <video src="img/home/achievements/nuestra-experiencia-en-bellas-artes.webm" class="background-video top-margin-50" autoplay muted loop></video>
+  <div class="container background-video-size">
+    <div class="row h-100">
+      <div class="col-lg-8 col-md-12 col-11 my-auto">
+        <h1 class="high-impact" id="high-impact-achievements"><h1/>
+      </div>
+    </div>
+  </div>
+  <!--Achievements-->
+  <div class="title vertical-margin-50 top-margin-100">
+    <div class="container" id="title-achievements"></div>
+  </div>
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col-lg-6 col-12">
+        <div class="achievement-box green-box">
+          <img src="img/home/achievements/hundred.jpg" alt="">
+          <p id="content-hundred-1"></p>
+        </div>
+        <div class="achievement-box pink-box">
+          <img src="img/home/achievements/hector-infanzon.jpg" alt="">
+          <p id="content-hector-infanzon"></p>
+        </div>
+        <div class="achievement-box green-box">
+          <img src="img/home/achievements/julio-castillo.jpg" alt="">
+          <p id="content-julio-castillo"></p>
+        </div>
+        <div class="achievement-box pink-box">
+          <img src="img/home/achievements/quintana-roo.jpg" alt="">
+          <p id="content-quintana-roo"></p>
+        </div>
+        <div class="achievement-box green-box">
+          <img src="img/home/achievements/foro-internacional-contra-la-violencia.jpg" alt="">
+          <p id="content-forum"></p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="achievement-box pink-box">
+          <img src="img/home/achievements/hundred.png" alt="">
+          <p id="content-hundred-2"></p>
+          <a href="https://hundred.org/en/innovations/virtual-music-school-for-young-teachers#52a2ea78">Virtual Music School for young teachers.</a><br>
+          <a href="https://hundred.org/en/innovations/sicoem-contextual-system-of-musical-training?filter=posts#52a2ea78">SICOEM Contextual System of Musical Training.</a><br><br>
+        </div>
+        <div class="achievement-box green-box">
+          <img src="img/home/achievements/santa-maria.jpg" alt="">
+          <p id="content-santa-maria"></p>
+        </div>
+        <div class="achievement-box pink-box">
+          <img src="img/home/achievements/primer-festival-de-bandas.jpg" alt="">
+          <p id="content-primer-festival"></p>
+        </div>
+        <div class="achievement-box green-box">
+          <img src="img/home/achievements/jazz-pop-sinfonico-infantil.jpg" alt="">
+          <p id="content-jazz-pop"></p>
+        </div>
+        <div class="achievement-box pink-box">
+          <img src="img/home/achievements/radio-imer.jpg" alt="">
+          <p id="content-radio-imer"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="title top-margin-50">
+      <div class="container">¡Participa!</div>
+    </div>
+    <div class="title" style="background-color: #444444; color:rgba(255, 255, 255, 0.95);">
       <div class="container">
-        <div class="communities-row">
-          <a class="community-box" href="valle-de-bravo.html">
-            <img src="img/home/where-we-act/valle-de-bravo.jpg" alt="Valle de Bravo's Cover">
-            <p>Valle de Bravo</p>
-          </a>
-          <a class="community-box" href="san-juan-amanalco.html">
-            <img src="img/home/where-we-act/san-juan-amanalco.jpg" alt="Amanalco de Becerras's Cover">
-            <p>Amanalco de Becerra</p>
-          </a>
-          <a class="community-box" href="acatitlan.html">
-            <img src="img/home/where-we-act/acatitlan.jpg" alt="Acatitlan's Cover">
-            <p>Acatitlán</p>
-          </a>
-          <a class="community-box" href="rincon-de-guadalupe.html">
-            <img src="img/home/where-we-act/rincon-de-guadalupe.jpg" alt="Rincón de Guadalupe's Cover">
-            <p>Rincón de Guadalupe</p>
-          </a>
-          <a class="community-box" href="el-temporal.html">
-            <img src="img/home/where-we-act/el-temporal.jpg" alt="El temporal's Cover">
-            <p>El temporal</p>
-          </a>
-          <a class="community-box" href="san-jeronimo.html">
-            <img src="img/home/where-we-act/san-jeronimo.jpg" alt="San Jerónimo's Cover">
-            <p>San Jerónimo</p>
-          </a>
-          <a class="community-box" href="donato-guerra.html">
-            <img src="img/home/where-we-act/donato-guerra.jpg" alt="Donato Guerra's Cover">
-            <p>Donato Guerra</p>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="title vertical-margin-50">
-      <div class="container" id="title-what-is"></div>
-    </div>
-    <div class="container">
-      <div class="row gx-5">
-        <div class="col-12 col-lg-6 image-shadow">
-          <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/eHzfjlWyxoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col">
-          <p id="content-what-is" class="paragraph responsive-paragraph-top-margin"></p>
-        </div>
-      </div>
-    </div>
-    <!--Educational proposal-->
-    <div class="title vertical-margin-50">
-      <div class="container" id="title-educational-proposal"></div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <img src="img/home/educational-proposal.jpg" alt="One of Filarmonía Vallesana's presentations" class="image-shadow" style="min-height: 350px; width: 100%; object-fit: cover;">
-      </div>
-      <div class="row paragraph gx-5">
-        <div class="col-12 col-lg-6">
-          <p id="content-educational-proposal" class="top-margin-50"></p>
-        </div>
-        <div class="col">
-          <p id="content-program-innovation" class="top-margin-50"></p>
-          <p id="content-proposals" class="top-margin-50"></p>
-          <a href="https://hundred.org/en/innovations/7-aural-intelligence#52a2ea78" id="link-proposals" ></a>
-        </div>
-      </div>
-    </div>
-    <video src="img/home/achievements/nuestra-experiencia-en-bellas-artes.webm" class="background-video top-margin-50" autoplay muted loop></video>
-    <div class="container background-video-size">
-      <div class="row h-100">
-        <div class="col-lg-8 col-md-12 col-11 my-auto">
-          <h1 class="high-impact" id="high-impact-achievements"><h1/>
-        </div>
-      </div>
-    </div>
-    <!--Achievements-->
-    <div class="title vertical-margin-50 top-margin-100">
-      <div class="container" id="title-achievements"></div>
-    </div>
-    <div class="container">
-      <div class="row gx-5">
-        <div class="col-lg-6 col-12">
-          <div class="achievement-box green-box">
-            <img src="img/home/achievements/hundred.jpg" alt="">
-            <p id="content-hundred-1"></p>
+        <p>Nuestros patrocinadores</p>
+        <div class="row">
+          <div class="col-lg-2 col-5 mx-auto my-auto">
+            <img src="img/sponsors/fundacion-pedro-y-elena-hernandez-footer.png" alt="Fundación Pedro y Elena Hernandez Logo" class="sponsors-bar-image">
           </div>
-          <div class="achievement-box pink-box">
-            <img src="img/home/achievements/hector-infanzon.jpg" alt="">
-            <p id="content-hector-infanzon"></p>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/festival-valle-de-bravo-footer.png" alt="Festival del Valle de Bravo Logo" class="sponsors-bar-image">
           </div>
-          <div class="achievement-box green-box">
-            <img src="img/home/achievements/julio-castillo.jpg" alt="">
-            <p id="content-julio-castillo"></p>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/gbm-footer.png" alt="GBM Logo" class="sponsors-bar-image">
           </div>
-          <div class="achievement-box pink-box">
-            <img src="img/home/achievements/quintana-roo.jpg" alt="">
-            <p id="content-quintana-roo"></p>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/infra-footer.png" alt="Infra Logo" class="sponsors-bar-image">
           </div>
-          <div class="achievement-box green-box">
-            <img src="img/home/achievements/foro-internacional-contra-la-violencia.jpg" alt="">
-            <p id="content-forum"></p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-12">
-          <div class="achievement-box pink-box">
-            <img src="img/home/achievements/hundred.png" alt="">
-            <p id="content-hundred-2"></p>
-            <a href="https://hundred.org/en/innovations/virtual-music-school-for-young-teachers#52a2ea78">Virtual Music School for young teachers.</a><br>
-            <a href="https://hundred.org/en/innovations/sicoem-contextual-system-of-musical-training?filter=posts#52a2ea78">SICOEM Contextual System of Musical Training.</a><br><br>
-          </div>
-          <div class="achievement-box green-box">
-            <img src="img/home/achievements/santa-maria.jpg" alt="">
-            <p id="content-santa-maria"></p>
-          </div>
-          <div class="achievement-box pink-box">
-            <img src="img/home/achievements/primer-festival-de-bandas.jpg" alt="">
-            <p id="content-primer-festival"></p>
-          </div>
-          <div class="achievement-box green-box">
-            <img src="img/home/achievements/jazz-pop-sinfonico-infantil.jpg" alt="">
-            <p id="content-jazz-pop"></p>
-          </div>
-          <div class="achievement-box pink-box">
-            <img src="img/home/achievements/radio-imer.jpg" alt="">
-            <p id="content-radio-imer"></p>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-4">
+            <img src="img/sponsors/citibanamex-footer.png" alt="Citibanamex Logo" class="sponsors-bar-image">
           </div>
         </div>
       </div>
     </div>
+  </footer>
 </body>
 </html>
