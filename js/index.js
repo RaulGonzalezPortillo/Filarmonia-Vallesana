@@ -23,9 +23,10 @@ i18next
           "btn-english": "English",
           "btn-spanish": "Spanish",
           "first-display-text": "Become a part of the most revolutionary music education program.",
-          "btn-franchise": "Franchise",
+          "btn-franchise": "Consultancy",
           "btn-donation": "Donation",
           "btn-sponsorship": "Sponsorship",
+          "btn-more": "More",
           "title-where": "Places where we operate",
           "title-what-is": "What do we do?",
           "content-what-is": "Filarmon&iacute;a Vallesana is a social program that influences society through a new musical education program.<br /><br />It all began in June 2011 with an excellent musical development model for children and young people between 6 and 18 years old, most of them with limited resources. We wanted to serve as a complement to education in schools and homes, with the objective of helping to develop the child's personality to the fullest. <br /><br />In Filarmon&iacute;a Vallesana we want to generate a shared experience of social development by engaging children and young people from different socioeconomic levels through music. &nbsp;Directing our students&rsquo; free time in practicing our unique musical education model procures a healthy development, as well as promoting civic values, cognitive, social and intellectual skills that nurture their self-esteem, encourage their search for excellence and stimulate their creativity.<br /><br />We want to create a childhood that, thanks to the integral development of their skills and talents, fosters a sense of belonging, pride and self-esteem.&nbsp; We want our students to have a vision of a better future for themselves and their families, therefore reinforcing the social fabric and highlighting Mexican talent.",
@@ -45,7 +46,14 @@ i18next
           "content-santa-maria": "Concert Santa María. Took place after only 6 months from the start of the program.",
           "content-primer-festival": "First Band Festival in Valle de Bravo with the performance of the “Big Band Jazz México”.",
           "content-jazz-pop": "Concert “Jazz & Pop Sinfónico Infantil” (violin ensemble) with the OSN at Palacio de las Bellas Artes, conducted by Professor Próspero Reyes.",
-          "content-radio-imer": "2 concerts to celebrate internacional Jazz day and Children's day at IMER."
+          "content-radio-imer": "2 concerts to celebrate internacional Jazz day and Children's day at IMER.",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -64,9 +72,10 @@ i18next
           "btn-english": "Inglés",
           "btn-spanish": "Español",
           "first-display-text": "Sé parte del programa de entrenamiento pedagógico músical más innovador.",
-          "btn-franchise": "Franquicia",
+          "btn-franchise": "Asesoría",
           "btn-donation": "Donación",
           "btn-sponsorship": "Patrocinio",
+          "btn-more": "Más",
           "title-where": "Dónde actuamos",
           "title-what-is": "¿Qué es Filarmonía Vallesana?",
           "content-what-is": "Filarmonía Vallesana es un Programa Social que incide en la sociedad a través del entrenamiento. pedagógico musical.<br><br>Comenzamos en Junio del 2011 como un modelo de desarrollo pedagógico musical de calidad para niñ@s y jóvenes de entre 6 y 18 años en su mayoría de escasos recursos, complementando la educación en las escuelas y los hogares teniendo como objetivo el pleno desarrollo de la personalidad del niño.<br><br>En Filarmonía Vallesana queremos generar una experiencia colectiva de desarrollo social, integrando a niñ@s y jóvenes de diversos niveles socioeconómicos a través de la música, canalizando su tiempo en actividades de estudio y aprendizaje que permitan un sano desarrollo, valores cívicos, habilidades cognitivas, sociales e intelectuales, la nutrición de su autoestima, su búsqueda de la excelencia y su creatividad a través de la enseñanza de la música.<br><br>Queremos una niñez que, gracias al desarrollo integral de sus habilidades y talentos, tenga un sentido de pertenencia, orgullo y autoestima, generando una visión de un futuro mejor para ellos y sus familias, fortaleciendo el tejido social y destacando el talento mexicano.",
@@ -86,7 +95,14 @@ i18next
           "content-santa-maria": "Concierto Santa María A los 6 meses de iniciado el programa.",
           "content-primer-festival": "Primer Festival de Bandas en Valle de Bravo con la participacion de la “Big Band Jazz de México”.",
           "content-jazz-pop": "Conciertos “Jazz & Pop Sinfónico Infantil” (ensamble de violines) con la OSN en el Palacio de las Bellas Artes dirigido por el maestro Próspero Reyes.",
-          "content-radio-imer": "2 conciertos para celebrar el Día Internacional del Jazz en el IMER en coincidencia con el Día del Niño."
+          "content-radio-imer": "2 conciertos para celebrar el Día Internacional del Jazz en el IMER en coincidencia con el Día del Niño.",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -114,6 +130,7 @@ function updateContent() {
   document.getElementById('btn-franchise').innerHTML = i18next.t('btn-franchise');
   document.getElementById('btn-donation').innerHTML = i18next.t('btn-donation');
   document.getElementById('btn-sponsorship').innerHTML = i18next.t('btn-sponsorship');
+  document.getElementById('btn-more').innerHTML = i18next.t('btn-more');
   document.getElementById('title-where').innerHTML = i18next.t('title-where');
   document.getElementById('title-what-is').innerHTML = i18next.t('title-what-is');
   document.getElementById('content-what-is').innerHTML = i18next.t('content-what-is');
@@ -134,6 +151,13 @@ function updateContent() {
   document.getElementById('content-primer-festival').innerHTML = i18next.t('content-primer-festival');
   document.getElementById('content-jazz-pop').innerHTML = i18next.t('content-jazz-pop');
   document.getElementById('content-radio-imer').innerHTML = i18next.t('content-radio-imer');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

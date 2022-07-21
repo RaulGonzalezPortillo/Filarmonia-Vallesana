@@ -56,19 +56,21 @@ i18next
           "btn-spanish": "Español",
           "title-organizational-chart": "Diagrama organizacional",
           "title-managing-board": "Consejo directivo",
-          "content-managing-board": "<b>Presidenta patronato:</b> Leticia Hernández Ramírez<br><b>Directora general:</b> Úrsula Verea Hernández",
+          "content-managing-board": "<b>Presidenta patronato</b><br>Leticia Hernández Ramírez",
+          "content-managing-board-2": "<b>Directora general</b><br>Úrsula Verea Hernández",
           "title-administrative-body": "Órgano administrativo",
-          "content-administrative-body": "<b>Asesoría jurídica:</b> Horacio Mafre<br><b>Coordinación y asistente de dirección general:</b> Roxana Rivas Flores<br><b>Departamento contable:</b> Aldo Herrera Cortez<br><b>Departamento de medios:</b> Carla González Uribe y Edna Silva<br><br><b>Coordinación Sede Valle de Bravo:</b> Ivett Velazco<br><b>Coordinación Sede Amanalco:</b> Rosa María Martínez de la Cruz<br><b>Coordinación Sede Donato Guerra:</b> Roxana Rivas Flores<br><b>Coordinación Acatitlan:</b> Susana Aguilar Cerezo<br><b>Departamento de mantenimiento:</b> José Manuel Colin González",
+          "content-administrative-body": "<b>Asesoría jurídica</b><br>Horacio Mafre<br><br><b>Coordinación y asistente de dirección general</b><br>Roxana Rivas Flores<br><br><b>Departamento contable</b><br>Aldo Herrera Cortez<br><br><b>Departamento de medios</b><br>Carla González Uribe y Edna Silva<br><br><b>Coordinación Sede Valle de Bravo</b><br>Ivett Velazco",
+          "content-administrative-body-2" : "<b>Coordinación Sede Amanalco</b><br>Rosa María Martínez de la Cruz<br><br><b>Coordinación Sede Donato Guerra</b><br>Roxana Rivas Flores<br><br><b>Coordinación Sede Acatitlan</b><br>Susana Aguilar Cerezo<br><br><b>Departamento de mantenimiento</b><br>José Manuel Colin González",
           "title-instructional-body": "Órgano docente",
-          "content-instructional-body": "<b>Director general artística y del SICOEM:</b> Prospero Reyes Cedeño",
+          "content-instructional-body": "<b>Director general artística y del SICOEM</b><br>Prospero Reyes Cedeño",
           "title-valle-de-bravo": "Valle de Bravo",
-          "content-valle-de-bravo": "<b>Director:</b> Prospero Reyes Cedeño<br>",
+          "content-valle-de-bravo": "<b>Director</b><br>Prospero Reyes Cedeño<br>",
           "title-amanalco": "Amanalco de Becerra",
-          "content-amanalco": "<b>Director asistente:</b> Víctor Castillo Osorio<br><br><b>Instructores:</b><br>• Julieta Soto Guadarrama<br>• Álvaro Daniel Martínez<br>• Joel Omar Martínez<br>• Berenice Pineda Santiago<br>• Denisse Pineda Santiago<br>• Álvaro Osorio Jiménez<br>• Adriana González Dolores",
+          "content-amanalco": "<b>Director asistente</b><br>Víctor Castillo Osorio<br><br><b>Instructores</b><br>Julieta Soto Guadarrama<br>Álvaro Daniel Martínez<br>Joel Omar Martínez<br>Berenice Pineda Santiago<br>Denisse Pineda Santiago<br>Álvaro Osorio Jiménez<br>Adriana González Dolores",
           "title-donato-guerra": "Donato Guerra",
-          "content-donato-guerra": "<b>Director:</b> Felipe Gómez Pérez<br><b>Director asistente:</b> Jesús Gómez Pérez",
+          "content-donato-guerra": "<b>Director</b><br>Felipe Gómez Pérez<br><br><b>Director asistente</b><br>Jesús Gómez Pérez",
           "title-acatitlan": "Acatitlán",
-          "content-acatitlan": "<b>Director asistente:</b> Víctor Castillo Osorio",
+          "content-acatitlan": "<b>Director asistente</b><br>Víctor Castillo Osorio",
         }
       }
     }
@@ -95,8 +97,10 @@ function updateContent() {
   document.getElementById('title-organizational-chart').innerHTML = i18next.t('title-organizational-chart');
   document.getElementById('title-managing-board').innerHTML = i18next.t('title-managing-board');
   document.getElementById('content-managing-board').innerHTML = i18next.t('content-managing-board');
+  document.getElementById('content-managing-board-2').innerHTML = i18next.t('content-managing-board-2');
   document.getElementById('title-administrative-body').innerHTML = i18next.t('title-administrative-body');
   document.getElementById('content-administrative-body').innerHTML = i18next.t('content-administrative-body');
+  document.getElementById('content-administrative-body-2').innerHTML = i18next.t('content-administrative-body-2');
   document.getElementById('title-instructional-body').innerHTML = i18next.t('title-instructional-body');
   document.getElementById('content-instructional-body').innerHTML = i18next.t('content-instructional-body');
   document.getElementById('title-valle-de-bravo').innerHTML = i18next.t('title-valle-de-bravo');

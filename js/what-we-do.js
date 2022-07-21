@@ -28,7 +28,14 @@ i18next
           "title-mission": "Mission",
           "content-mission": "The mission is to generate a collective experience of social development, integrating children and young people of diverse socioeconomic levels through music. We also intend to channel their leisure time into study and learning activities that allow a healthy development of civic values and cognitive, social, and intellectual skills, which nurture their self-esteem, encourage their search for excellence and stimulate their creativity.",
           "title-vision": "Vision",
-          "content-vision": "Our vision is to become a model among social organizations thanks to the solidity and the transcendence of our work.  As well as our capacity to effectively promote intellectual and social development and healthy coexistence, always counting on the participation of residents in the communities, neighborhoods, and barrios, mainly in Valle de Bravo and nearby towns."
+          "content-vision": "Our vision is to become a model among social organizations thanks to the solidity and the transcendence of our work.  As well as our capacity to effectively promote intellectual and social development and healthy coexistence, always counting on the participation of residents in the communities, neighborhoods, and barrios, mainly in Valle de Bravo and nearby towns.",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -52,7 +59,14 @@ i18next
           "title-mission": "Misión",
           "content-mission": "Generar una experiencia colectiva de desarrollo social, integrando a niños y jovenes de diversos niveles socioeconómicos a través de la música, canalizando su tiempo de ocio en actividades de estudio y aprendizaje, que permitan un sano desarrollo, valores cívicos y habilidades cognitivas, sociales e intelectuales, que nutran su autoestima, fomenten su busqueda de la excelencia e incentiven su creatividad.",
           "title-vision": "Visión",
-          "content-vision": "Ser un referente entre las organizaciones sociales, por su solidez y la trascendencia de su trabajo, así como, por la capacidad de potenciar de manera efectiva el desarrollo intelectual, social y la sana convivencia, siempre contando con la participación de los habitantes de las comunidades, colonias y barrios, principalmente en Valle de Bravo y municipios cercanos."
+          "content-vision": "Ser un referente entre las organizaciones sociales, por su solidez y la trascendencia de su trabajo, así como, por la capacidad de potenciar de manera efectiva el desarrollo intelectual, social y la sana convivencia, siempre contando con la participación de los habitantes de las comunidades, colonias y barrios, principalmente en Valle de Bravo y municipios cercanos.",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -83,6 +97,13 @@ function updateContent() {
   document.getElementById('content-mission').innerHTML = i18next.t('content-mission');
   document.getElementById('title-vision').innerHTML = i18next.t('title-vision');
   document.getElementById('content-vision').innerHTML = i18next.t('content-vision');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

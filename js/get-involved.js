@@ -21,7 +21,8 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "title-get-involved": "Get involved!"
         }
       },
       es: {
@@ -38,7 +39,8 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "title-get-involved": "¡Parcitipa!"
         }
       }
     }
@@ -62,6 +64,7 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('title-get-involved').innerHTML = i18next.t('title-get-involved');
 }
 
 //Save the prefered language after changing it

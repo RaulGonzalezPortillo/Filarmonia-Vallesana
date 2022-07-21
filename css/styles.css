@@ -82,6 +82,16 @@ strong {
     }
 }
 
+.responsive-paragraph-top-margin-small {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-paragraph-top-margin-small {
+        margin-top: 25px;
+    }
+}
+
 .top-margin-50 {
     margin-top: 50px;
 }
@@ -182,6 +192,7 @@ strong {
     padding: 20px;
     border-radius: 15px;
     margin: 15px;
+    filter: drop-shadow(0 0 15px #00000040);
 }
 
 @media only screen and (max-width: 768px) {
@@ -192,7 +203,7 @@ strong {
 }
 
 .action-box:hover {
-    box-shadow: 0 0 20px #00b08b;
+    filter: drop-shadow(0 0 15px #32dbb7);
     color: white;
 }
 
@@ -231,6 +242,7 @@ strong {
 .communities-row {
     display: flex;
     flex-direction: row;
+    margin: 30px 0 30px 0;
 }
 
 .community-box {
@@ -245,8 +257,10 @@ strong {
     bottom: 40px;
     left: 20px;
     font-size: 1.3em;
-    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-shadow: 0 0 10px #000000;
     font-weight: 500;
+    height: 0;
+    width: 0
 }
 
 .community-box img {
@@ -255,6 +269,11 @@ strong {
     object-fit: cover;
     border-radius: 15px;
     filter: brightness(80%);
+    filter: drop-shadow(0 0 15px #00000020);
+}
+
+.community-box img:hover {
+    filter: drop-shadow(0 0 15px #32dbb7);
 }
 
 @media only screen and (max-width: 768px) {
@@ -265,7 +284,7 @@ strong {
 }
 
 .image-shadow {
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 0 10px #00000040);
 }
 
 .rounded-element {
