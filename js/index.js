@@ -4,7 +4,7 @@ i18next
   .init({
     //Set the stored prefered language, if not selected, use English.
     lng: localStorage.getItem('language') != null? localStorage.getItem('language'): "en",
-    debug: false,
+    debug: true,
     //Define the translations
     resources: {
       en: {
