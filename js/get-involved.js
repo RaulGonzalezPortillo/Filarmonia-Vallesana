@@ -25,7 +25,22 @@ i18next
           "title-get-involved": "Get involved!",
           "footer-get-involved": "Get involved!",
           "footer-our-supporters": "Our supporters",
-          "footer-privacy-notice": "Privacy notice"
+          "footer-privacy-notice": "Privacy notice",
+          "btn-franchise": "Consultancy",
+          "btn-instrument": "Donate an instrument",
+          "btn-social-service": "Social service",
+          "btn-sponsorship": "Sponsorship",
+          "btn-donation": "Donation",
+          "content-consultancy": "<strong>Consultancy</strong><br /><br />We are looking to extend our educational program to more locations.<br /><br />Join Filarmonia Vallesana and be part of the most innovative musical pedagogical training program!",
+          "content-instrument": "<strong>Donate an instrument<br /></strong><br />Donating an instrument is very easy. You can do it individually or gather a group of friends to do it. Support us!",
+          "content-social-service": "<strong>Social service<br /></strong><br />We need the enthusiastic work of young people to support us in the coordination and registration of the orchestra's activities.<br /><br />If you are in the last semesters of your career and want to do your social service with us, contact us!",
+          "content-sponsorship": "<strong>Sponsorship<br /></strong><br />Become a supporter and help us to keep moving forward with consistency so that more young people continue to take benefit from the program.",
+          "title-contact-us": 'Contact us',
+          "button-scroll-to-contact-us": "Contact us",
+          "button-scroll-to-contact-us-2": "Contact us",
+          "button-scroll-to-contact-us-3": "Contact us",
+          "button-scroll-to-contact-us-4": "Contact us",
+          "button-scroll-to-contact-us-5": "Contact us"
         }
       },
       es: {
@@ -45,7 +60,23 @@ i18next
           "btn-spanish": "Español",
           "title-get-involved": "¡Participa!",
           "footer-our-supporters": "Nuestros patrocinadores",
-          "footer-privacy-notice": "Aviso de privacidad"
+          "footer-privacy-notice": "Aviso de privacidad",
+          "btn-franchise": "Asesoría",
+          "btn-instrument": "Dona un instrumento",
+          "btn-social-service": "Servicio social",
+          "btn-sponsorship": "Patrocinio",
+          "btn-donation": "Donativo",
+          "content-consultancy": "<strong>Asesoría</strong><br /><br />Buscamos extender nuestra propuesta educativa a m&aacute;s sedes.<br /><br />&iexcl;&Uacute;nete a Filarmon&iacute;a Vallesana y forma parte del programa de entrenamiento pedag&oacute;gico musical m&aacute;s innovador!",
+          "content-instrument": "<strong>Dona un instrumento<br /></strong><br />Donar un instrumento es muy sencillo. Puedes hacerlo de forma individual o juntar un grupo de amigos para hacerlo. &iexcl;Ap&oacute;yanos!",
+          "content-social-service": "<strong>Servicio social<br /></strong><br />Requerimos del trabajo entusiasta de j&oacute;venes que nos apoyen en las labores de coordinaci&oacute;n, as&iacute; como de registro de las actividades de la orquesta.<br /><br />Si est&aacute;s cursando los &uacute;ltimos semestres de tu carrera y quieres realizar tu servicio social con nosotros, &iexcl;Cont&aacute;ctanos!",
+          "content-sponsorship": "<strong>Patrocinio<br /></strong><br />Forma parte de nuestros patrocinadores y ay&uacute;danos a seguir avanzando con solidez para que m&aacute;s j&oacute;venes sigan benefici&aacute;ndose del programa",
+          "content-donation": "<strong>Donativos<br /><br /></strong>En tu sucursal Banamex m&aacute;s cercana<br /><br />Cuenta Banamex: 375-1111<br /><br />Clabe Interbancaria: 002 1800 3750 0011 118<br />Festival Internacional de M&uacute;sica Pro Valle de Bravo, A.C. Avenida Chapultepec 28, 5&deg; piso<br />Col. Doctores C.P. 06720, Del. Cuauht&eacute;moc, M&eacute;xico, D.F.",
+          "title-contact-us": 'Contáctanos',
+          "button-scroll-to-contact-us": "Contáctanos",
+          "button-scroll-to-contact-us-2": "Contáctanos",
+          "button-scroll-to-contact-us-3": "Contáctanos",
+          "button-scroll-to-contact-us-4": "Contáctanos",
+          "button-scroll-to-contact-us-5": "Contáctanos"
         }
       }
     }
@@ -72,6 +103,22 @@ function updateContent() {
   document.getElementById('title-get-involved').innerHTML = i18next.t('title-get-involved');
   document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
   document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
+  document.getElementById('btn-franchise').innerHTML = i18next.t('btn-franchise');
+  document.getElementById('btn-instrument').innerHTML = i18next.t('btn-instrument');
+  document.getElementById('btn-social-service').innerHTML = i18next.t('btn-social-service');
+  document.getElementById('btn-sponsorship').innerHTML = i18next.t('btn-sponsorship');
+  document.getElementById('btn-donation').innerHTML = i18next.t('btn-donation');
+  document.getElementById('content-consultancy').innerHTML = i18next.t('content-consultancy');
+  document.getElementById('content-instrument').innerHTML = i18next.t('content-instrument');
+  document.getElementById('content-social-service').innerHTML = i18next.t('content-social-service')
+  document.getElementById('content-sponsorship').innerHTML = i18next.t('content-sponsorship');
+  document.getElementById('content-donation').innerHTML = i18next.t('content-donation');
+  document.getElementById('title-contact-us').innerHTML = i18next.t('title-contact-us');
+  document.getElementById('button-scroll-to-contact-us').innerHTML = i18next.t('button-scroll-to-contact-us');
+  document.getElementById('button-scroll-to-contact-us-2').innerHTML = i18next.t('button-scroll-to-contact-us-2');
+  document.getElementById('button-scroll-to-contact-us-3').innerHTML = i18next.t('button-scroll-to-contact-us-3');
+  document.getElementById('button-scroll-to-contact-us-4').innerHTML = i18next.t('button-scroll-to-contact-us-4');
+  document.getElementById('button-scroll-to-contact-us-5').innerHTML = i18next.t('button-scroll-to-contact-us-5');
 }
 
 //Save the prefered language after changing it
