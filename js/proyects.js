@@ -21,7 +21,14 @@ i18next
           "btn-get-involved": "Get involved",
           "btn-language": "Language",
           "btn-english": "English",
-          "btn-spanish": "Spanish"
+          "btn-spanish": "Spanish",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -38,7 +45,14 @@ i18next
           "btn-get-involved": "Participa",
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
-          "btn-spanish": "Español"
+          "btn-spanish": "Español",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -62,6 +76,13 @@ function updateContent() {
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

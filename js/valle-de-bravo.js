@@ -25,7 +25,14 @@ i18next
           "title-valle-de-bravo": "Valle de Bravo",
           "content-organization": "<strong>Director</strong><br />Prof. Pr&oacute;spero Reyes Cede&ntilde;o.<br /><br /><strong>Coordination</strong><br />Leticia Ivett Velasco Sandoval.<br /><br /><strong>Assistant Director</strong><br />Gibran Montes de oca Guarneros.<br /><br /><strong>Department of Technology and Instrumental maintenance</strong><br />Jos&eacute; Manuel Col&iacute;n Gonz&aacute;lez.<br /><br /><strong>Intendance</strong><br />Rosalina L&oacute;pez G&oacute;mez.",
           "content-description": "With its lake, waterfalls and forest, Valle de Bravo is the heart and engine of the program. Based on a solid work team, we propose and develop diverse projects for the expansion and development of the participating communities in diverse contextual programs such as:<br /><br /><strong>&bull; </strong> Chamber orchestra<br /><strong>&bull; </strong> Violin ensemble<br /><strong>&bull; </strong> Symphonic band<br /><strong>&bull; </strong> Jazz band<br /><strong>&bull; </strong> Choir and recorder<br /><strong>&bull; </strong>Guitars<br /><strong>&bull; </strong> Mariachi<br /><strong>&bull; </strong> Training of instructors <br /><strong>&bull; </strong> Instrumental technology<br /><strong>&bull; </strong>Elaboration of didactic materials",
-          "content-details": "It's also the center of intercommunity cooperation and communication for concerts, programs and special projects. Some examples are the training of instructors, which is emerging as the future developer and continuator of our program, or the department of technology and instrumental maintenance, fundamental for the maintenance and development of the program."
+          "content-details": "It's also the center of intercommunity cooperation and communication for concerts, programs and special projects. Some examples are the training of instructors, which is emerging as the future developer and continuator of our program, or the department of technology and instrumental maintenance, fundamental for the maintenance and development of the program.",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -46,7 +53,14 @@ i18next
           "title-valle-de-bravo": "Valle de Bravo",
           "content-organization": "<strong>Director</strong><br />Mtro. Pr&oacute;spero Reyes Cede&ntilde;o.<br /><br /><strong>Coordinaci&oacute;n General</strong><br />Leticia Ivett Velasco Sandoval.<br /><br /><strong>Director Asistente<br /></strong>Gibran Montes de oca Guarneros.<br /><br /><strong>Departamento de Tecnolog&iacute;a y Mantenimiento Instrumental</strong><br />Jos&eacute; Manuel Col&iacute;n Gonz&aacute;lez.<br /><br /><strong>Intendencia</strong><br />Rosalina L&oacute;pez G&oacute;mez.",
           "content-description": "Con su lago, cascadas y bosque, Valle de Bravo es el coraz&oacute;n y motor del programa. En base a un s&oacute;lido equipo de trabajo, propone y desarrolla diversas propuestas para la expansi&oacute;n y el desarrollo de las comunidades participantes en diversos programas contextuales como:<br /><br /><strong>&bull; </strong>Orquesta de c&aacute;mara<br /><strong>&bull; </strong>Ensamble de violines<br /><strong>&bull; </strong>Banda sinf&oacute;nica<br /><strong>&bull; </strong>Banda de Jazz<br /><strong>&bull; </strong>Coro y Flauta Dulce<br /><strong>&bull; </strong>Guitarras<br /><strong>&bull; </strong>Mariachi<br /><strong>&bull; </strong>Capacitaci&oacute;n de Instructores<br /><strong>&bull; </strong>Tecnolog&iacute;a Instrumental<br /><strong>&bull; </strong>Elaboraci&oacute;n de Materiales Did&aacute;cticos",
-          "content-details": "Es tambi&eacute;n el centro de la cooperaci&oacute;n y comunicaci&oacute;n intercomunitaria para conciertos, programas y proyectos especiales. Unos ejemplos son la capacitaci&oacute;n de Instructores que se perfila como el futuro desarrollador y continuador de nuestro programa o el departamento de tecnolog&iacute;a y mantenimiento instrumental, fundamental para el mantenimiento y desarrollo del programa."
+          "content-details": "Es tambi&eacute;n el centro de la cooperaci&oacute;n y comunicaci&oacute;n intercomunitaria para conciertos, programas y proyectos especiales. Unos ejemplos son la capacitaci&oacute;n de Instructores que se perfila como el futuro desarrollador y continuador de nuestro programa o el departamento de tecnolog&iacute;a y mantenimiento instrumental, fundamental para el mantenimiento y desarrollo del programa.",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -74,6 +88,13 @@ function updateContent() {
   document.getElementById('content-organization').innerHTML = i18next.t('content-organization');
   document.getElementById('content-description').innerHTML = i18next.t('content-description');
   document.getElementById('content-details').innerHTML = i18next.t('content-details');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

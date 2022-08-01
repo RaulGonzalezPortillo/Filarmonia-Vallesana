@@ -1,81 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyects - Filarmonía Vallesana</title>
-    <!--Normalize CSS-->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <!--Own styles CSS-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <!--Bootstrap JS-->
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript" defer></script>
-    <!--i18Next JS-->
-    <script src="js/i18next.js" type="text/javascript" defer></script>
-    <!--Own JS-->
-    <script src="js/proyects.js" type="text/javascript" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyects - Filarmonía Vallesana</title>
+  <!--Normalize CSS-->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!--Own styles CSS-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!--Bootstrap JS-->
+  <script src="js/bootstrap.bundle.min.js" type="text/javascript" defer></script>
+  <!--i18Next JS-->
+  <script src="js/i18next.js" type="text/javascript" defer></script>
+  <!--Own JS-->
+  <script src="js/proyects.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <header>
-      <!--Fixed Navbar that utilizes all available horizontal space-->
-      <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
-        <!--Clickable brand logo-->
-        <a class="navbar-brand" href="index.html">
-          <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
-        </a>
-        <!--Responsive hamburguer menu-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <!--Navbar list. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link"href="index.html" id="btn-home"></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
-                <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
-                <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
-                <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="students.html" id="btn-students"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="proyects.html" id="btn-proyects"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
-            </li>
-          </ul>
-          <!--Language selector. Goes to the hamburguer menu on mobile.-->
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
-                <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
-              </ul>
-            </li>
-          </ul>
-          <!--Secondary brand logo, hide on mobile-->
-          <div class="d-none d-lg-block left-padding-20">
-            <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
+  <header>
+    <!--Fixed Navbar that utilizes all available horizontal space-->
+    <nav class="navbar nav-pills fixed-top navbar-expand-lg navbar-light bg-primary horizontal-padding-50">
+      <!--Clickable brand logo-->
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logos/logo-filarmonia.png" alt="Filarmonía Vallesana's Logo" height="60">
+      </a>
+      <!--Responsive hamburguer menu-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!--Navbar list. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"href="index.html" id="btn-home"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-about-us">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="what-we-do.html" id="btn-what-we-do"></a></li>
+              <li><a class="dropdown-item" href="organizational-chart.html" id="btn-organizational-chart"></a></li>
+              <li><a class="dropdown-item" href="transparency.html" id="btn-transparency"></a></li>
+              <li><a class="dropdown-item" href="privacy-notice.html" id="btn-privacy-notice"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html" id="btn-sponsors"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="students.html" id="btn-students"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="proyects.html" id="btn-proyects"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="get-involved.html" id="btn-get-involved"></a>
+          </li>
+        </ul>
+        <!--Language selector. Goes to the hamburguer menu on mobile.-->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="btn-language">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#" onclick="changeLng('en')" id="btn-english"></a></li>
+              <li><a class="dropdown-item" href="#" onclick="changeLng('es')" id="btn-spanish"></a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--Secondary brand logo, hide on mobile-->
+        <div class="d-none d-lg-block left-padding-20">
+          <img src="img/logos/logo-festival.png" alt="Festival del Valle de Bravo's Logo" height="75">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <footer>
+    <div class="top-margin-50" style="background-color: #00b08b;">
+      <div class="container">
+        <p class="title" id="footer-get-involved"></p>
+        <div class="row justify-content-center" style="padding-bottom: 50px;">
+          <a href="get-involved.html" class="col-lg-2 col-5 mx-sm-3 mx-2 my-sm-3 my-2 action-box">
+            <img src="img/home/franchise.png" alt="Franchise icon">
+            <p id="footer-franchise"></p>
+          </a>
+          <a href="get-involved.html" class="col-lg-2 col-5 mx-sm-3 mx-2 my-sm-3 my-2 action-box">
+            <img src="img/home/donation.png" alt="Donation icon">
+            <p id="footer-donation"></p>
+          </a>
+          <a href="get-involved.html" class="col-lg-2 col-5 mx-sm-3 mx-2 my-sm-3 my-2 action-box">
+            <img src="img/home/sponsorship.png" alt="Sponsorship icon">
+            <p id="footer-sponsorship"></p>
+          </a>
+          <a href="get-involved.html" class="col-lg-2 col-5 mx-sm-3 mx-2 my-sm-3 my-2 action-box">
+            <img src="img/home/more.png" alt="More icon">
+            <p id="footer-more"></p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #444444;">
+      <div class="container">
+        <p class="title" style="background-color: #444444; color:rgba(255, 255, 255, 0.95);" id="footer-our-supporters"></p>
+        <div class="row">
+          <div class="col-lg-2 col-5 mx-auto my-auto">
+            <img src="img/sponsors/fundacion-pedro-y-elena-hernandez-footer.png" alt="Fundación Pedro y Elena Hernandez Logo" class="sponsors-bar-image">
+          </div>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/festival-valle-de-bravo-footer.png" alt="Festival del Valle de Bravo Logo" class="sponsors-bar-image">
+          </div>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/gbm-footer.png" alt="GBM Logo" class="sponsors-bar-image">
+          </div>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-2">
+            <img src="img/sponsors/infra-footer.png" alt="Infra Logo" class="sponsors-bar-image">
+          </div>
+          <div class="col-lg-2 col-5 mx-auto my-lg-auto my-4">
+            <img src="img/sponsors/citibanamex-footer.png" alt="Citibanamex Logo" class="sponsors-bar-image">
           </div>
         </div>
-      </nav>
-    </header>
+        <div class="col text-center" style="padding: 50px; text-decoration: underline;">
+          <a href="privacy-notice.html" style="color:rgba(255, 255, 255, 0.95);" id="footer-privacy-notice"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

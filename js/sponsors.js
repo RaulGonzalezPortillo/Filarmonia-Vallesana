@@ -23,7 +23,13 @@ i18next
           "btn-english": "English",
           "btn-spanish": "Spanish",
           "title-sponsors": "Supporters",
-          "content-sponsors": "We are very grateful to our sponsors for supporting our cause and helping us create more life-changing development experiences through music."
+          "content-sponsors": "We are very grateful to our sponsors for supporting our cause and helping us create more life-changing development experiences through music.",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -42,7 +48,13 @@ i18next
           "btn-english": "Inglés",
           "btn-spanish": "Español",
           "title-sponsors": "Patrocinadores",
-          "content-sponsors": "Estamos muy agradecidos con nuestros patrocinadores por apoyar nuestra causa y ayudarnos a crear más experiencias de desarrollo integral a través de la música"
+          "content-sponsors": "Estamos muy agradecidos con nuestros patrocinadores por apoyar nuestra causa y ayudarnos a crear más experiencias de desarrollo integral a través de la música",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -68,6 +80,12 @@ function updateContent() {
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
   document.getElementById('title-sponsors').innerHTML = i18next.t('title-sponsors');
   document.getElementById('content-sponsors').innerHTML = i18next.t('content-sponsors');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

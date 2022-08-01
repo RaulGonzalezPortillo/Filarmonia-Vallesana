@@ -23,7 +23,14 @@ i18next
           "btn-english": "English",
           "btn-spanish": "Spanish",
           "title-privacy-notice": "Privacy notice",
-          "content-privacy-notice": "Based on the provisions of the Federal Law for the Protection of Personal Data in Possession of Individuals, which obliges individuals, whether private individuals or companies, who carry out the processing of personal data, we make available the corresponding privacy notices, in order to ensure the privacy and the right to informational self-determination of persons who provide us with personal data."
+          "content-privacy-notice": "Based on the provisions of the Federal Law for the Protection of Personal Data in Possession of Individuals, which obliges individuals, whether private individuals or companies, who carry out the processing of personal data, we make available the corresponding privacy notices, in order to ensure the privacy and the right to informational self-determination of persons who provide us with personal data.",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
           
         }
       },
@@ -43,7 +50,14 @@ i18next
           "btn-english": "Inglés",
           "btn-spanish": "Español",
           "title-privacy-notice": "Aviso de privacidad",
-          "content-privacy-notice": "Con fundamento en lo establecido en la Ley Federal de Protecci&oacute;n de Datos Personales en Posesi&oacute;n de los Particulares, mediante la cual se obliga a los particulares, sean personas f&iacute;sicas o morales de car&aacute;cter privado, que lleven a cabo el tratamiento de datos personales, ponemos a su disposici&oacute;n los avisos de privacidad correspondientes, a efecto de garantizar la privacidad y el derecho a la autodeterminaci&oacute;n informativa de las personas que nos proporcionan datos personales."
+          "content-privacy-notice": "Con fundamento en lo establecido en la Ley Federal de Protecci&oacute;n de Datos Personales en Posesi&oacute;n de los Particulares, mediante la cual se obliga a los particulares, sean personas f&iacute;sicas o morales de car&aacute;cter privado, que lleven a cabo el tratamiento de datos personales, ponemos a su disposici&oacute;n los avisos de privacidad correspondientes, a efecto de garantizar la privacidad y el derecho a la autodeterminaci&oacute;n informativa de las personas que nos proporcionan datos personales.",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -69,6 +83,13 @@ function updateContent() {
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
   document.getElementById('title-privacy-notice').innerHTML = i18next.t('title-privacy-notice');
   document.getElementById('content-privacy-notice').innerHTML = i18next.t('content-privacy-notice');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

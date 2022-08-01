@@ -37,6 +37,13 @@ i18next
           "content-donato-guerra": "<b>Director:</b> Felipe Gómez Pérez<br><b>Assistant director:</b> Jesús Gómez Pérez",
           "title-acatitlan": "Acatitlán",
           "content-acatitlan": "<b>Assistant director:</b> Víctor Castillo Osorio",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -71,6 +78,13 @@ i18next
           "content-donato-guerra": "<b>Director</b><br>Felipe Gómez Pérez<br><br><b>Director asistente</b><br>Jesús Gómez Pérez",
           "title-acatitlan": "Acatitlán",
           "content-acatitlan": "<b>Director asistente</b><br>Víctor Castillo Osorio",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -111,6 +125,13 @@ function updateContent() {
   document.getElementById('content-donato-guerra').innerHTML = i18next.t('content-donato-guerra');
   document.getElementById('title-acatitlan').innerHTML = i18next.t('title-acatitlan');
   document.getElementById('content-acatitlan').innerHTML = i18next.t('content-acatitlan');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
   //document.getElementById('').innerHTML = i18next.t('');
 }
 

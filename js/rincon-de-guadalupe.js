@@ -24,7 +24,14 @@ i18next
           "btn-spanish": "Spanish",
           "content-organization": "<strong>Director</strong><br />Berenice Pineda Santiago.<br /><br /><strong>Community Leader</strong><br />Denisse Pineda Santiago.",
           "content-description": "Beautiful community of forests and large hills, where the objectives of the Filarmon&iacute;a Vallesana program are developed through musical training. <br /><br />Sub-site of the program formed thanks to the fruits of the first generation of students. They apply the methodology providing a space of opportunity, growth and development to boys and girls due to the lack of children and youth programs in our region. <br /><br />",
-          "content-details": "The director Berenice Pineda Santiago is a young woman of great future, exemplary, belonging in her fourth year to the second generation of Trainers in Training, from a family of outstanding educators that generates in her environment a commitment of congruence, dedication and healthy coexistence enriching the different musical ensembles in which she participates and others that she develops in her community.<br /><br />His example enriches the program, his family and the community in general. <br /><br />"
+          "content-details": "The director Berenice Pineda Santiago is a young woman of great future, exemplary, belonging in her fourth year to the second generation of Trainers in Training, from a family of outstanding educators that generates in her environment a commitment of congruence, dedication and healthy coexistence enriching the different musical ensembles in which she participates and others that she develops in her community.<br /><br />His example enriches the program, his family and the community in general. <br /><br />",
+          "footer-get-involved": "Get involved!",
+          "footer-franchise": "Consultancy",
+          "footer-donation": "Donation",
+          "footer-sponsorship": "Sponsorship",
+          "footer-more": "More",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -44,7 +51,14 @@ i18next
           "btn-spanish": "Español",
           "content-organization": "<strong>Directora</strong><br />Berenice Pineda Santiago.<br /><br /><strong>Lider Comunitaria</strong><br />Denisse Pineda Santiago.",
           "content-description": "Hermosa comunidad de bosques y grandes colinas, en la que se desarrollan los objetivos del programa Filarmon&iacute;a Vallesana mediante el entrenamiento musical. <br /><br />Subsede del programa formado gracias a los frutos de la primera generaci&oacute;n de Alumnos. Aplican la metodolog&iacute;a brindando un espacio de oportunidad, crecimiento y desarrollo a ni&ntilde;os y ni&ntilde;as ante la carente falta de programas infantiles y juveniles en nuestra regi&oacute;n.",
-          "content-details": "La directora Berenice Pineda Santiago es una joven de gran futuro, ejemplar perteneciente en su cuarto a&ntilde;o a la segunda generaci&oacute;n de Capacitadores en Entrenamiento, de una familia de destacados educadores que genera en su entorno un compromiso de congruencia, dedicaci&oacute;n y sana convivencia enriqueciendo los diferentes ensambles musicales en los que participa y otros que desarrolla en su comunidad.<br /><br />Su ejemplo enriquece al programa, a su familia y a la comunidad en general."
+          "content-details": "La directora Berenice Pineda Santiago es una joven de gran futuro, ejemplar perteneciente en su cuarto a&ntilde;o a la segunda generaci&oacute;n de Capacitadores en Entrenamiento, de una familia de destacados educadores que genera en su entorno un compromiso de congruencia, dedicaci&oacute;n y sana convivencia enriqueciendo los diferentes ensambles musicales en los que participa y otros que desarrolla en su comunidad.<br /><br />Su ejemplo enriquece al programa, a su familia y a la comunidad en general.",
+          "footer-get-involved": "¡Participa!",
+          "footer-franchise": "Asesoría",
+          "footer-donation": "Donación",
+          "footer-sponsorship": "Patrocinio",
+          "footer-more": "Más",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -71,6 +85,13 @@ function updateContent() {
   document.getElementById('content-organization').innerHTML = i18next.t('content-organization');
   document.getElementById('content-description').innerHTML = i18next.t('content-description');
   document.getElementById('content-details').innerHTML = i18next.t('content-details');
+  document.getElementById('footer-get-involved').innerHTML = i18next.t('footer-get-involved');
+  document.getElementById('footer-franchise').innerHTML = i18next.t('footer-franchise');
+  document.getElementById('footer-donation').innerHTML = i18next.t('footer-donation');
+  document.getElementById('footer-sponsorship').innerHTML = i18next.t('footer-sponsorship');
+  document.getElementById('footer-more').innerHTML = i18next.t('footer-more');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it

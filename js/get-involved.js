@@ -22,7 +22,10 @@ i18next
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
-          "title-get-involved": "Get involved!"
+          "title-get-involved": "Get involved!",
+          "footer-get-involved": "Get involved!",
+          "footer-our-supporters": "Our supporters",
+          "footer-privacy-notice": "Privacy notice"
         }
       },
       es: {
@@ -40,7 +43,9 @@ i18next
           "btn-language": "Lenguaje",
           "btn-english": "Inglés",
           "btn-spanish": "Español",
-          "title-get-involved": "¡Parcitipa!"
+          "title-get-involved": "¡Participa!",
+          "footer-our-supporters": "Nuestros patrocinadores",
+          "footer-privacy-notice": "Aviso de privacidad"
         }
       }
     }
@@ -65,6 +70,8 @@ function updateContent() {
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
   document.getElementById('btn-spanish').innerHTML = i18next.t('btn-spanish');
   document.getElementById('title-get-involved').innerHTML = i18next.t('title-get-involved');
+  document.getElementById('footer-our-supporters').innerHTML = i18next.t('footer-our-supporters');
+  document.getElementById('footer-privacy-notice').innerHTML = i18next.t('footer-privacy-notice');
 }
 
 //Save the prefered language after changing it
