@@ -73,7 +73,7 @@ function updateContent() {
   document.getElementById('btn-privacy-notice').innerHTML = i18next.t('btn-privacy-notice');
   document.getElementById('btn-sponsors').innerHTML = i18next.t('btn-sponsors');
   document.getElementById('btn-students').innerHTML = i18next.t('btn-students');
-  document.getElementById('btn-proyects').innerHTML = i18next.t('btn-proyects');
+  // document.getElementById('btn-proyects').innerHTML = i18next.t('btn-proyects');
   document.getElementById('btn-get-involved').innerHTML = i18next.t('btn-get-involved');
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');

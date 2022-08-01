@@ -24,19 +24,21 @@ i18next
           "btn-spanish": "Spanish",
           "title-organizational-chart": "Organizational chart",
           "title-managing-board": "Directive council",
-          "content-managing-board": "<b>President of the Board:</b> Leticia Hernández Ramírez<br><b>General Director:</b> Úrsula Verea Hernández",
+          "content-managing-board": "<b>President of the Board</b><br>Leticia Hernández Ramírez",
+          "content-managing-board-2": "<b>General Director</b><br>Úrsula Verea Hernández",
           "title-administrative-body": "Administrative department",
-          "content-administrative-body": "<b>Legal Counsel:</b> Horacio Mafre<br><b>Coordination and general management assistant:</b> Roxana Rivas Flores<br><b>Accounting Department:</b> Aldo Herrera Cortez<br><b>Media department:</b> Carla González Uribe y Edna Silva<br><br><b>Valle de Bravo Headquarters coordination:</b> Ivett Velazco<br><b>Amanalco Headquarters coordination:</b> Rosa María Martínez de la Cruz<br><b>Donato Guerra Headquarters coordination:</b> Roxana Rivas Flores<br><b>Acatitlan Headquarters coordination:</b> Susana Aguilar Cerezo<br><b>Maintenance department:</b> José Manuel Colin González",
+          "content-administrative-body": "<b>Legal Counsel</b><br>Horacio Mafre<br><br><b>Coordination and general management assistant</b><br>Roxana Rivas Flores<br><br><b>Accounting Department</b><br>Aldo Herrera Cortez<br><br><b></b>Media department</b><br>Carla González Uribe y Edna Silva<br><br><b>Valle de Bravo Headquarters coordination</b><br>Ivett Velazco",
+          "content-administrative-body-2": "<b>Amanalco Headquarters coordination</b><br>Rosa María Martínez de la Cruz<br><br><b>Donato Guerra Headquarters coordination</b><br>Roxana Rivas Flores<br><br><b>Acatitlan Headquarters coordination</b><br>Susana Aguilar Cerezo<br><br><b>Maintenance department</b><br>José Manuel Colin González",
           "title-instructional-body": "Faculty Members",
-          "content-instructional-body": "<b>General artistic and SICOEM director:</b> Prospero Reyes Cedeño",
+          "content-instructional-body": "<b>General artistic and SICOEM director</b><br>Prospero Reyes Cedeño",
           "title-valle-de-bravo": "Valle de Bravo",
-          "content-valle-de-bravo": "<b>Director:</b> Prospero Reyes Cedeño<br>",
+          "content-valle-de-bravo": "<b>Director</b><br>Prospero Reyes Cedeño<br>",
           "title-amanalco": "Amanalco de Becerra",
-          "content-amanalco": "<b>Assistant director:</b> Víctor Castillo Osorio<br><br><b>Instructors:</b><br>• Julieta Soto Guadarrama<br>• Álvaro Daniel Martínez<br>• Joel Omar Martínez<br>• Berenice Pineda Santiago<br>• Denisse Pineda Santiago<br>• Álvaro Osorio Jiménez<br>• Adriana González Dolores",
+          "content-amanalco": "<b>Assistant director</b><br>Víctor Castillo Osorio<br><br><b>Instructors</b><br>Julieta Soto Guadarrama<br>Álvaro Daniel Martínez<br>Joel Omar Martínez<br>Berenice Pineda Santiago<br>Denisse Pineda Santiago<br>Álvaro Osorio Jiménez<br>Adriana González Dolores",
           "title-donato-guerra": "Donato Guerra",
-          "content-donato-guerra": "<b>Director:</b> Felipe Gómez Pérez<br><b>Assistant director:</b> Jesús Gómez Pérez",
+          "content-donato-guerra": "<b>Director</b><br>Felipe Gómez Pérez<br><br><b>Assistant director</b><br>Jesús Gómez Pérez",
           "title-acatitlan": "Acatitlán",
-          "content-acatitlan": "<b>Assistant director:</b> Víctor Castillo Osorio",
+          "content-acatitlan": "<b>Assistant director</b><br>Víctor Castillo Osorio",
           "footer-get-involved": "Get involved!",
           "footer-franchise": "Consultancy",
           "footer-donation": "Donation",
@@ -103,7 +105,7 @@ function updateContent() {
   document.getElementById('btn-privacy-notice').innerHTML = i18next.t('btn-privacy-notice');
   document.getElementById('btn-sponsors').innerHTML = i18next.t('btn-sponsors');
   document.getElementById('btn-students').innerHTML = i18next.t('btn-students');
-  document.getElementById('btn-proyects').innerHTML = i18next.t('btn-proyects');
+  // document.getElementById('btn-proyects').innerHTML = i18next.t('btn-proyects');
   document.getElementById('btn-get-involved').innerHTML = i18next.t('btn-get-involved');
   document.getElementById('btn-language').innerHTML = i18next.t('btn-language');
   document.getElementById('btn-english').innerHTML = i18next.t('btn-english');
