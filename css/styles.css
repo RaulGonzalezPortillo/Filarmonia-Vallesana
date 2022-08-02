@@ -268,7 +268,7 @@ strong {
 }
 
 .community-box img {
-    height: 200px;
+    height: 175px;
     width: 300px;
     object-fit: cover;
     border-radius: 15px;
@@ -282,8 +282,8 @@ strong {
 
 @media only screen and (max-width: 768px) {
     .community-box img {
-        height: 200px;
-        width: 250px;
+        height: 175px;
+        width: 240px;
     }
 }
 
