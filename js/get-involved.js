@@ -38,9 +38,10 @@ i18next
           "content-sponsorship": "<strong>Sponsorship<br /></strong><br />Become a supporter and help us to keep moving forward with consistency so that more young people continue to take benefit from the program.",
           "content-donation": "<strong>Donations<br /></strong><br />At your nearest Banamex location<br /><br /><b>Banamex account:</b> 375-1111<br /><br /><b>CLABE:</b> 002 1800 3750 0011 118",
           "content-contact": "<strong>Our office</strong><br /><br />Festival Internacional de M&uacute;sica Pro Valle de Bravo, A.C. Avenida Chapultepec 28, 5th floor, Col. Doctores C.P. 06720, Del. Cuauht&eacute;moc, M&eacute;xico, D.F",
-          "content-contact-2": "<strong>Contact<br /></strong><br />&Uacute;rsula Verea, General Manager<br />(55) 5540 0073",
-          "content-contact-3": "Ilse&nbsp;Cassiano, Valle de Bravo Headquarters coordination<br />(55) 8400 9093",
-          "content-contact-4": "Roxana Rivas, Donato Guerra Headquarters coordination<br />01 726 262 0107",
+          "title-contact": "<strong>Contact</strong>",
+          "content-contact-2": "&Uacute;rsula Verea<br />General Manager<br />(55) 5540 0073",
+          "content-contact-3": "Ilse&nbsp;Cassiano<br />Valle de Bravo Headquarters coordination<br />(55) 8400 9093",
+          "content-contact-4": "Roxana Rivas<br />Donato Guerra Headquarters coordination<br />01 726 262 0107",
           "title-contact-us": 'Contact us',
           "button-scroll-to-contact-us": "Contact us",
           "button-scroll-to-contact-us-2": "Contact us",
@@ -79,9 +80,10 @@ i18next
           "content-sponsorship": "<strong>Patrocinio<br /></strong><br />Forma parte de nuestros patrocinadores y ay&uacute;danos a seguir avanzando con solidez para que m&aacute;s j&oacute;venes sigan benefici&aacute;ndose del programa",
           "content-donation": "<strong>Donativos<br /></strong><br />En tu sucursal Banamex m&aacute;s cercana<br /><br /><b>Cuenta Banamex:</b> 375-1111<br /><br /><b>CLABE Interbancaria:</b> 002 1800 3750 0011 118",
           "content-contact": "<strong>Nuestras oficinas</strong><br /><br />Festival Internacional de M&uacute;sica Pro Valle de Bravo, A.C. Avenida Chapultepec 28, 5&deg; piso, Col. Doctores C.P. 06720, Del. Cuauht&eacute;moc, M&eacute;xico, D.F",
-          "content-contact-2": "<strong>Contacto<br /></strong><br />&Uacute;rsula Verea, Directora General<br />(55) 5540 0073",
-          "content-contact-3": "Ilse&nbsp;Cassiano, Coordinadora Valle de Bravo<br />(55) 8400 9093",
-          "content-contact-4": "Roxana Rivas, Coordinadora en Donato Guerra<br />01 726 262 0107",
+          "title-contact": "<strong>Contacto</strong>",
+          "content-contact-2": "&Uacute;rsula Verea<br />Directora General<br />(55) 5540 0073",
+          "content-contact-3": "Ilse&nbsp;Cassiano<br />Coordinadora Valle de Bravo<br />(55) 8400 9093",
+          "content-contact-4": "Roxana Rivas<br />Coordinadora en Donato Guerra<br />01 726 262 0107",
           "title-contact-us": 'Contáctanos',
           "button-scroll-to-contact-us": "Contáctanos",
           "button-scroll-to-contact-us-2": "Contáctanos",
@@ -126,6 +128,7 @@ function updateContent() {
   document.getElementById('content-sponsorship').innerHTML = i18next.t('content-sponsorship');
   document.getElementById('content-donation').innerHTML = i18next.t('content-donation');
   document.getElementById('content-contact').innerHTML = i18next.t('content-contact');
+  document.getElementById('title-contact').innerHTML = i18next.t('title-contact');
   document.getElementById('content-contact-2').innerHTML = i18next.t('content-contact-2');
   document.getElementById('content-contact-3').innerHTML = i18next.t('content-contact-3');
   document.getElementById('content-contact-4').innerHTML = i18next.t('content-contact-4');
