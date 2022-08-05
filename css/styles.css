@@ -126,6 +126,11 @@ strong {
     color: #e7fffa;
     font-size: 2em;
     font-weight: 500;
+    box-shadow: 0 0 20px #00000040;
+}
+
+footer .title {
+    box-shadow: 0 0 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -264,7 +269,7 @@ strong {
     text-shadow: 0 0 10px #000000;
     font-weight: 500;
     height: 0;
-    width: 0
+    width: 0;
 }
 
 .community-box img {
@@ -299,6 +304,7 @@ strong {
     background-color: #00b08b;
     border-radius: 15px;
     margin-bottom: 50px;
+    box-shadow: 0 0 20px #00000040;
 }
 
 .achievement-box img {
@@ -327,12 +333,10 @@ strong {
 
 .green-box {
     background-color: #00b08b;
-    box-shadow: 0 0 20px #00b08b;
 }
 
 .pink-box {
     background-color: #c30f96;
-    box-shadow: 0 0 20px #c30f96;
 }
 
 .sponsors-bar-image {
