@@ -40,7 +40,6 @@ i18next
           "content-contact": "<strong>Our office</strong><br /><br />Festival Internacional de M&uacute;sica Pro Valle de Bravo, A.C. Avenida Chapultepec 28, 5th floor, Col. Doctores C.P. 06720, Del. Cuauht&eacute;moc, M&eacute;xico, D.F",
           "title-contact": "<strong>Contact</strong>",
           "content-contact-2": "&Uacute;rsula Verea<br />General Manager<br />(55) 5540 0073",
-          "content-contact-3": "Ilse&nbsp;Cassiano<br />Valle de Bravo Headquarters coordination<br />(55) 8400 9093",
           "content-contact-4": "Roxana Rivas<br />Donato Guerra Headquarters coordination<br />01 726 262 0107",
           "title-contact-us": 'Contact us',
           "button-scroll-to-contact-us": "Contact us",
@@ -82,7 +81,6 @@ i18next
           "content-contact": "<strong>Nuestras oficinas</strong><br /><br />Festival Internacional de M&uacute;sica Pro Valle de Bravo, A.C. Avenida Chapultepec 28, 5&deg; piso, Col. Doctores C.P. 06720, Del. Cuauht&eacute;moc, M&eacute;xico, D.F",
           "title-contact": "<strong>Contacto</strong>",
           "content-contact-2": "&Uacute;rsula Verea<br />Directora General<br />(55) 5540 0073",
-          "content-contact-3": "Ilse&nbsp;Cassiano<br />Coordinadora Valle de Bravo<br />(55) 8400 9093",
           "content-contact-4": "Roxana Rivas<br />Coordinadora en Donato Guerra<br />01 726 262 0107",
           "title-contact-us": 'Contáctanos',
           "button-scroll-to-contact-us": "Contáctanos",
@@ -130,7 +128,6 @@ function updateContent() {
   document.getElementById('content-contact').innerHTML = i18next.t('content-contact');
   document.getElementById('title-contact').innerHTML = i18next.t('title-contact');
   document.getElementById('content-contact-2').innerHTML = i18next.t('content-contact-2');
-  document.getElementById('content-contact-3').innerHTML = i18next.t('content-contact-3');
   document.getElementById('content-contact-4').innerHTML = i18next.t('content-contact-4');
   document.getElementById('title-contact-us').innerHTML = i18next.t('title-contact-us');
   document.getElementById('button-scroll-to-contact-us').innerHTML = i18next.t('button-scroll-to-contact-us');
