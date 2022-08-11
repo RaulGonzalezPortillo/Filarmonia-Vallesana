@@ -22,7 +22,7 @@ i18next
           "btn-language": "Language",
           "btn-english": "English",
           "btn-spanish": "Spanish",
-          "first-display-text": "Become a part of the most revolutionary music education program.",
+          "first-display-text": "Be part of one of the most revolutionary music education programs.",
           "btn-franchise": "Consultancy",
           "btn-donation": "Donation",
           "btn-sponsorship": "Sponsorship",
@@ -34,8 +34,9 @@ i18next
           "title-educational-proposal": "Educational proposal",
           "content-program-innovation": "<strong>Innovation of the music education program</strong><br><br><strong>&bull; </strong>Creation of the first children's and youth jazz band.<br><strong>&bull; </strong> Formation of the first Digital Keyboard ensemble of Filarmonía Vallesana developed as a result of the pandemic confinement.",
           "content-proposals": "<strong>Educational proposals</strong><br>",
-          "link-proposals": "<strong>&bull; </strong> SICOEM's recognition by Finnish organization HundrED",
-          "high-impact-achievements": "Filarmonía Vallesana.<br><br>Social program selected as one of the 100 most innovative and scalable educational methods in the world.",
+          "link-proposals": "<strong>&bull; </strong> SICOEM's recognition by Finnish organization HundrED.",
+          "link-proposals-2": "<strong>&bull; </strong> Aural intelligence, for an effective communication in the 21st century.",
+          "high-impact-achievements": "SICOEM:<br/>Selected as one of the most inspiring education innovations in the world.",
           "title-achievements": "Achievements",
           "content-hundred-1": "Professor Próspero and our executives were invited to participate at the HundrED Innovation Summit 2019 in Helsinki, Finland, sharing experiences and knowledge alongside the world's leading innovators in education.",
           "content-hector-infanzon": "Concerts with Hector Infanzón, Hernando CastroDaniel Wong (MAD trio) and Felipe Gordillo.",
@@ -83,8 +84,9 @@ i18next
           "content-educational-proposal": "Nuestro método de aprendizaje se enfoca en la innovación continua del sistema educativo tradicional, rompiendo las barreras de estudio de un sistema perfeccionista, repetitivo, idealista y sin una empatía cultural, con fundamentos académicos euro-centristas que niega el camino del aprendizaje a través de prueba, error y mejora continua.<br><br>Fomentamos una educación activa, participativa y grupal, desarrollando habilidades y competencias con un enfoque en los alumnos, logrando impactar en la identidad cultural para su correcta adaptación y desarrollo educativo.<br><br>No enseñamos, entrenamos. Nos inspiramos en el sistema deportivo, donde se intercala entre el juego y la práctica enfocándonos en la disciplina, comunidad y tradición.",
           "content-program-innovation": "<strong>Innovación del programa educativo musical</strong><br><br><strong>&bull; </strong> Desarrollo de la primera banda de jazz infantil y juvenil.<br><strong>&bull; </strong> Formación del primer Ensamble de Teclados Digitales de Filarmonía Vallesana desarrollado en línea a raíz de la pandemia y su confinamiento.",
           "content-proposals": "<strong>Propuestas educativas</strong><br>",
-          "link-proposals": "<strong>&bull; </strong> Reconocimiento de la organización Finlandesa HundrED al SICOEM",
-          "high-impact-achievements": "Filarmonía Vallesana.<br><br>Programa social reconocido como uno de los 100 sistemas de entrenamiento más innovadores del mundo.",
+          "link-proposals": "<strong>&bull; </strong>Reconocimiento de la organización Finlandesa HundrED al SICOEM.",
+          "link-proposals-2": "<strong>&bull; </strong>Inteligencia aural, para la comunicación efectiva en el siglo 2021",
+          "high-impact-achievements": "SICOEM:<br>Seleccionado como una de las innovaciones educativas más inspiradoras del mundo.",
           "title-achievements": "Logros",
           "content-hundred-1": "El Maestro Próspero y nuestros directivos estuvieron presentes en la Cumbre de Innovación HundrED 2018 en Helsinki, Finlandia, compartiendo experiencias y conocimientos al lado de los más importantes innovadores del mundo en temas de educación.",
           "content-hector-infanzon": "Conciertos con Hector Infanzón, Hernando Castro, Daniel Wong (de MAD trio) y Felipe Gordillo.",
@@ -139,6 +141,7 @@ function updateContent() {
   document.getElementById('content-program-innovation').innerHTML = i18next.t('content-program-innovation');
   document.getElementById('content-proposals').innerHTML = i18next.t('content-proposals');
   document.getElementById('link-proposals').innerHTML = i18next.t('link-proposals');
+  document.getElementById('link-proposals-2').innerHTML = i18next.t('link-proposals-2');
   document.getElementById('high-impact-achievements').innerHTML = i18next.t('high-impact-achievements');
   document.getElementById('title-achievements').innerHTML = i18next.t('title-achievements');
   document.getElementById('content-hundred-1').innerHTML = i18next.t('content-hundred-1');
